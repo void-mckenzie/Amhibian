@@ -1,0 +1,74 @@
+2023-04-26 03:27:20,092 INFO    StreamThr :16678 [internal.py:wandb_internal():89] W&B internal server running at pid: 16678, started at: 2023-04-26 03:27:20.090408
+2023-04-26 03:27:20,093 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: status
+2023-04-26 03:27:20,100 INFO    WriterThread:16678 [datastore.py:open_for_write():85] open: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/run-zyyuwvi2.wandb
+2023-04-26 03:27:20,102 DEBUG   SenderThread:16678 [sender.py:send():375] send: header
+2023-04-26 03:27:20,102 DEBUG   SenderThread:16678 [sender.py:send():375] send: run
+2023-04-26 03:27:20,384 INFO    SenderThread:16678 [dir_watcher.py:__init__():219] watching files in: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files
+2023-04-26 03:27:20,384 INFO    SenderThread:16678 [sender.py:_start_run_threads():1127] run started: zyyuwvi2 with start time 1682504840.093629
+2023-04-26 03:27:20,384 DEBUG   SenderThread:16678 [sender.py:send_request():402] send_request: summary_record
+2023-04-26 03:27:20,386 INFO    SenderThread:16678 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-26 03:27:20,390 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: check_version
+2023-04-26 03:27:20,390 DEBUG   SenderThread:16678 [sender.py:send_request():402] send_request: check_version
+2023-04-26 03:27:20,478 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: run_start
+2023-04-26 03:27:21,388 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/wandb-summary.json
+2023-04-26 03:27:24,568 DEBUG   HandlerThread:16678 [system_info.py:__init__():31] System info init
+2023-04-26 03:27:24,568 DEBUG   HandlerThread:16678 [system_info.py:__init__():46] System info init done
+2023-04-26 03:27:24,568 INFO    HandlerThread:16678 [system_monitor.py:start():181] Starting system monitor
+2023-04-26 03:27:24,568 INFO    SystemMonitor:16678 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-26 03:27:24,569 INFO    HandlerThread:16678 [system_monitor.py:probe():201] Collecting system info
+2023-04-26 03:27:24,569 INFO    SystemMonitor:16678 [interfaces.py:start():190] Started cpu monitoring
+2023-04-26 03:27:24,569 INFO    SystemMonitor:16678 [interfaces.py:start():190] Started disk monitoring
+2023-04-26 03:27:24,570 INFO    SystemMonitor:16678 [interfaces.py:start():190] Started gpu monitoring
+2023-04-26 03:27:24,570 INFO    SystemMonitor:16678 [interfaces.py:start():190] Started memory monitoring
+2023-04-26 03:27:24,571 INFO    SystemMonitor:16678 [interfaces.py:start():190] Started network monitoring
+2023-04-26 03:27:24,584 DEBUG   HandlerThread:16678 [system_info.py:probe():195] Probing system
+2023-04-26 03:27:24,584 DEBUG   HandlerThread:16678 [system_info.py:probe():240] Probing system done
+2023-04-26 03:27:24,584 DEBUG   HandlerThread:16678 [system_monitor.py:probe():210] {'os': 'Linux-3.10.0-1160.71.1.el7.x86_64-x86_64-with-centos-7.7.1908-Core', 'python': '3.7.12', 'heartbeatAt': '2023-04-26T10:27:24.584817', 'startedAt': '2023-04-26T10:27:20.054060', 'docker': None, 'cuda': None, 'args': ('--exp_type=meta', '--params=model_configs/attunet2_amphibian_meta.json'), 'state': 'running', 'program': 'experiment_runner.py', 'codePath': 'experiment_runner.py', 'host': 'a02-20.hpc.usc.edu', 'username': 'mganesh', 'executable': '/home1/mganesh/miniconda3/envs/medseg/bin/python', 'cpu_count': 32, 'cpu_count_logical': 32, 'cpu_freq': {'current': 2794.683999999999, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}, {'current': 2794.684, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 125.69997787475586, 'used': 3.0346107482910156}, 'gpu': 'NVIDIA A40', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA A40', 'memory_total': 48305799168}, {'name': 'NVIDIA A40', 'memory_total': 48305799168}], 'memory': {'total': 251.39995574951172}}
+2023-04-26 03:27:24,584 INFO    HandlerThread:16678 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-26 03:27:24,584 INFO    HandlerThread:16678 [system_monitor.py:probe():214] Publishing system info
+2023-04-26 03:27:24,585 DEBUG   HandlerThread:16678 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-04-26 03:27:24,587 DEBUG   HandlerThread:16678 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-26 03:27:24,587 DEBUG   HandlerThread:16678 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-04-26 03:27:25,399 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/conda-environment.yaml
+2023-04-26 03:27:25,400 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/requirements.txt
+2023-04-26 03:27:28,628 DEBUG   HandlerThread:16678 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-26 03:27:28,631 INFO    HandlerThread:16678 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-26 03:27:28,639 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: status_report
+2023-04-26 03:27:28,640 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-26 03:27:28,640 DEBUG   SenderThread:16678 [sender.py:send():375] send: files
+2023-04-26 03:27:28,640 INFO    SenderThread:16678 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-26 03:27:28,650 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-26 03:27:28,650 DEBUG   SenderThread:16678 [sender.py:send():375] send: telemetry
+2023-04-26 03:27:28,651 DEBUG   SenderThread:16678 [sender.py:send_request():402] send_request: stop_status
+2023-04-26 03:27:29,054 INFO    wandb-upload_0:16678 [upload_job.py:push():137] Uploaded file /tmp/tmpp4khrri9wandb/alxe7032-wandb-metadata.json
+2023-04-26 03:27:29,416 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/conda-environment.yaml
+2023-04-26 03:27:29,417 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:29,418 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/wandb-metadata.json
+2023-04-26 03:27:30,738 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: status_report
+2023-04-26 03:27:31,426 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:35,738 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: status_report
+2023-04-26 03:27:37,449 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:39,456 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:40,459 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:40,892 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: status_report
+2023-04-26 03:27:41,463 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:43,480 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:43,649 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-26 03:27:43,649 DEBUG   SenderThread:16678 [sender.py:send_request():402] send_request: stop_status
+2023-04-26 03:27:45,487 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:46,008 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: status_report
+2023-04-26 03:27:47,495 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:49,504 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:51,304 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: status_report
+2023-04-26 03:27:51,514 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:52,517 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/config.yaml
+2023-04-26 03:27:53,521 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:55,532 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:56,540 DEBUG   HandlerThread:16678 [handler.py:handle_request():144] handle_request: status_report
+2023-04-26 03:27:57,543 INFO    Thread-12 :16678 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/AmphibianModels/wandb/run-20230426_032720-zyyuwvi2/files/output.log
+2023-04-26 03:27:58,583 INFO    memory    :16678 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2023-04-26 03:27:58,583 DEBUG   SystemMonitor:16678 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-26 03:27:58,583 DEBUG   SystemMonitor:16678 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-26 03:27:58,583 DEBUG   SystemMonitor:16678 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-26 03:27:58,585 DEBUG   SenderThread:16678 [sender.py:send():375] send: stats
+2023-04-26 03:27:59,444 INFO    MainThread:16678 [internal.py:handle_exit():76] Internal process exited

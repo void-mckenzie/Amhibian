@@ -1,0 +1,24 @@
+{
+    "weights_path": "experiments/Amphibian_AttUNet-5d.pth",
+    "targets": [
+        "spleen"
+    ],
+    "report_path": "Amphibian-AttUNet-5d.csv",
+    "params": {
+        "epochs": 20,
+	"model_name": "AttUNet5",
+        "batch_size": 1,
+        "ft_shots": 15,
+        "lr": 0.001,
+        "wd": 3e-05,
+        "loss_type": "combined_dice_bce",
+        "scheduler": null,
+        "scheduler_params": null,
+        "norm_type": "instance",
+        "volumetric": false,
+        "max_images": null,
+        "data_regime": "all"
+    },
+    "exp_type": "ft",
+    "num_selections": 1
+}

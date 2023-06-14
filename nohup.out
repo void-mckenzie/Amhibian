@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 1141, in init
+    wi.setup(kwargs)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 172, in setup
+    self._wl = wandb_setup.setup(settings=setup_settings)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/wandb_setup.py", line 327, in setup
+    ret = _setup(settings=settings)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/wandb_setup.py", line 320, in _setup
+    wl = _WandbSetup(settings=settings)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/wandb_setup.py", line 303, in __init__
+    _WandbSetup._instance = _WandbSetup__WandbSetup(settings=settings, pid=pid)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/wandb_setup.py", line 114, in __init__
+    self._setup()
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/wandb_setup.py", line 250, in _setup
+    self._setup_manager()
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/wandb_setup.py", line 277, in _setup_manager
+    self._manager = wandb_manager._Manager(settings=self._settings)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/wandb_manager.py", line 145, in __init__
+    self._service.start()
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/service/service.py", line 199, in start
+    self._launch_server()
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/service/service.py", line 191, in _launch_server
+    self._wait_for_ports(fname, proc=internal_proc)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/service/service.py", line 124, in _wait_for_ports
+    time.sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "experiment_runner.py", line 213, in <module>
+    config=data.get("params")
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    assert logger
+AssertionError

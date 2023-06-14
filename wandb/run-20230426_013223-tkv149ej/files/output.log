@@ -1,0 +1,19 @@
+['heart']
+It is none
+None
+Starting meta-learning
+Traceback (most recent call last):
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/amphibian.py", line 170, in setup_loss_function
+    self.loss_function = LOSSES[self.loss_function_type]
+KeyError: 'combined_dice_bce'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "experiment_runner.py", line 249, in <module>
+    target_name=data.get("weights_name"))
+  File "experiment_runner.py", line 53, in meta_train
+    reference_set=reference_loader, volumetric=volumetric)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/amphibian.py", line 161, in __init__
+    self.setup_loss_function()
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/amphibian.py", line 173, in setup_loss_function
+    raise Exception("Unrecognized loss type. Available are: bce, weighted_bce, iou, tversky, combined")
+Exception: Unrecognized loss type. Available are: bce, weighted_bce, iou, tversky, combined

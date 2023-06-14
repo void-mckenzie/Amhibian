@@ -1,0 +1,25 @@
+['heart']
+It is none
+None
+Starting meta-learning
+Traceback (most recent call last):
+  File "experiment_runner.py", line 245, in <module>
+    target_name=data.get("weights_name"))
+  File "experiment_runner.py", line 50, in meta_train
+    reference_set=reference_loader, volumetric=volumetric)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/reptile.py", line 96, in __init__
+    self.model.cuda()
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/nn/modules/module.py", line 749, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/nn/modules/module.py", line 664, in _apply
+    param_applied = fn(param)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/nn/modules/module.py", line 749, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+KeyboardInterrupt

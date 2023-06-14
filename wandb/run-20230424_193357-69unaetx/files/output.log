@@ -1,0 +1,20 @@
+{'epochs': 20, 'batch_size': 1, 'ft_shots': 15, 'lr': 0.001, 'wd': 3e-05, 'loss_type': 'dice', 'scheduler': None, 'scheduler_params': None, 'norm_type': 'instance', 'volumetric': False, 'max_images': None, 'data_regime': 'all'}
+Starting fine-tuning
+Save path None
+/scratch2/mganesh/MetaMedSeg/MetaMedSeg/splits/spleen
+Traceback (most recent call last):
+  File "experiment_runner.py", line 235, in <module>
+    num_selections=data.get("num_selections"), save_pth=save_path)
+  File "experiment_runner.py", line 127, in fine_tune
+    data_regime=data_regime, save_pth=save_pth))
+  File "experiment_runner.py", line 92, in fine_tune_one_selection
+    data_regime=data_regime, save_weights=save_pth)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/fine_tuning.py", line 24, in __init__
+    self.init_weights = torch.load(path_to_weights)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/serialization.py", line 771, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/serialization.py", line 270, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/serialization.py", line 251, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'experiments/weights_nonvolumetric_dice.pth'

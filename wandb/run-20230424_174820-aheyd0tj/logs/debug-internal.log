@@ -1,0 +1,372 @@
+2023-04-24 17:48:20,650 INFO    StreamThr :39171 [internal.py:wandb_internal():89] W&B internal server running at pid: 39171, started at: 2023-04-24 17:48:20.648748
+2023-04-24 17:48:20,651 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status
+2023-04-24 17:48:20,656 INFO    WriterThread:39171 [datastore.py:open_for_write():85] open: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/run-aheyd0tj.wandb
+2023-04-24 17:48:20,657 DEBUG   SenderThread:39171 [sender.py:send():375] send: header
+2023-04-24 17:48:20,657 DEBUG   SenderThread:39171 [sender.py:send():375] send: run
+2023-04-24 17:48:20,955 INFO    SenderThread:39171 [dir_watcher.py:__init__():219] watching files in: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files
+2023-04-24 17:48:20,955 INFO    SenderThread:39171 [sender.py:_start_run_threads():1127] run started: aheyd0tj with start time 1682383700.651118
+2023-04-24 17:48:20,958 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: summary_record
+2023-04-24 17:48:20,960 INFO    SenderThread:39171 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-24 17:48:20,966 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: check_version
+2023-04-24 17:48:20,967 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: check_version
+2023-04-24 17:48:21,044 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: run_start
+2023-04-24 17:48:21,957 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/wandb-summary.json
+2023-04-24 17:48:25,070 DEBUG   HandlerThread:39171 [system_info.py:__init__():31] System info init
+2023-04-24 17:48:25,070 DEBUG   HandlerThread:39171 [system_info.py:__init__():46] System info init done
+2023-04-24 17:48:25,070 INFO    HandlerThread:39171 [system_monitor.py:start():181] Starting system monitor
+2023-04-24 17:48:25,070 INFO    SystemMonitor:39171 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-24 17:48:25,071 INFO    HandlerThread:39171 [system_monitor.py:probe():201] Collecting system info
+2023-04-24 17:48:25,071 INFO    SystemMonitor:39171 [interfaces.py:start():190] Started cpu monitoring
+2023-04-24 17:48:25,072 INFO    SystemMonitor:39171 [interfaces.py:start():190] Started disk monitoring
+2023-04-24 17:48:25,072 INFO    SystemMonitor:39171 [interfaces.py:start():190] Started gpu monitoring
+2023-04-24 17:48:25,072 INFO    SystemMonitor:39171 [interfaces.py:start():190] Started memory monitoring
+2023-04-24 17:48:25,073 INFO    SystemMonitor:39171 [interfaces.py:start():190] Started network monitoring
+2023-04-24 17:48:25,087 DEBUG   HandlerThread:39171 [system_info.py:probe():195] Probing system
+2023-04-24 17:48:25,087 DEBUG   HandlerThread:39171 [system_info.py:probe():240] Probing system done
+2023-04-24 17:48:25,087 DEBUG   HandlerThread:39171 [system_monitor.py:probe():210] {'os': 'Linux-3.10.0-1160.71.1.el7.x86_64-x86_64-with-centos-7.7.1908-Core', 'python': '3.7.12', 'heartbeatAt': '2023-04-25T00:48:25.087758', 'startedAt': '2023-04-25T00:48:20.597239', 'docker': None, 'cuda': None, 'args': ('--exp_type=meta', '--params=golden_configs/meta_params_nonvolu_plain.json'), 'state': 'running', 'program': 'experiment_runner.py', 'codePath': 'experiment_runner.py', 'host': 'b01-06.hpc.usc.edu', 'username': 'mganesh', 'executable': '/home1/mganesh/miniconda3/envs/medseg/bin/python', 'cpu_count': 64, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2595.2149999999974, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}, {'current': 2595.215, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 125.7036247253418, 'used': 3.07171630859375}, 'gpu': 'NVIDIA A100-PCIE-40GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA A100-PCIE-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-PCIE-40GB', 'memory_total': 42949672960}], 'memory': {'total': 251.4072494506836}}
+2023-04-24 17:48:25,087 INFO    HandlerThread:39171 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-24 17:48:25,087 INFO    HandlerThread:39171 [system_monitor.py:probe():214] Publishing system info
+2023-04-24 17:48:25,087 DEBUG   HandlerThread:39171 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-04-24 17:48:25,107 DEBUG   HandlerThread:39171 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-24 17:48:25,107 DEBUG   HandlerThread:39171 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-04-24 17:48:25,971 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/requirements.txt
+2023-04-24 17:48:25,972 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/conda-environment.yaml
+2023-04-24 17:48:28,500 DEBUG   HandlerThread:39171 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-24 17:48:28,503 INFO    HandlerThread:39171 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-24 17:48:28,517 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:48:28,517 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-24 17:48:28,517 DEBUG   SenderThread:39171 [sender.py:send():375] send: files
+2023-04-24 17:48:28,517 INFO    SenderThread:39171 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-24 17:48:28,526 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:48:28,526 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:48:28,607 DEBUG   SenderThread:39171 [sender.py:send():375] send: telemetry
+2023-04-24 17:48:28,948 INFO    wandb-upload_0:39171 [upload_job.py:push():137] Uploaded file /tmp/tmpth09tsgnwandb/nqm3lv97-wandb-metadata.json
+2023-04-24 17:48:28,982 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/conda-environment.yaml
+2023-04-24 17:48:28,982 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/wandb-metadata.json
+2023-04-24 17:48:28,982 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:48:30,989 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:48:31,632 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:48:36,633 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:48:39,016 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:48:41,023 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:48:41,633 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:48:42,027 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:48:43,525 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:48:43,525 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:48:45,040 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:48:46,834 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:48:47,047 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:48:49,055 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:48:51,062 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:48:51,870 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:48:52,068 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/config.yaml
+2023-04-24 17:48:53,073 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:48:55,080 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:48:57,087 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:48:57,183 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:48:58,526 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:48:58,526 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:48:59,093 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:01,101 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:02,384 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:49:03,109 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:05,111 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-24 17:49:05,112 DEBUG   SenderThread:39171 [sender.py:send():375] send: history
+2023-04-24 17:49:05,112 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: summary_record
+2023-04-24 17:49:05,115 INFO    SenderThread:39171 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-24 17:49:05,123 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/wandb-summary.json
+2023-04-24 17:49:05,123 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:07,138 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:08,158 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:49:09,145 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:13,177 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:13,203 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:49:13,526 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:49:13,526 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:49:15,183 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:17,194 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:18,317 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:49:19,202 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:21,208 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:23,225 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:23,431 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:49:25,073 DEBUG   SystemMonitor:39171 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-24 17:49:25,075 DEBUG   SenderThread:39171 [sender.py:send():375] send: stats
+2023-04-24 17:49:25,234 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:27,241 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:28,527 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:49:28,527 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:49:28,527 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:49:29,247 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:33,266 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:34,277 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:49:35,280 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:37,288 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:39,293 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:40,071 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:49:43,315 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:43,527 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:49:43,527 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:49:45,197 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:49:45,323 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:47,331 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:49,340 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:50,698 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:49:51,366 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:53,373 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:55,075 DEBUG   SenderThread:39171 [sender.py:send():375] send: stats
+2023-04-24 17:49:55,380 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:56,024 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:49:57,392 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:49:58,527 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:49:58,527 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:49:59,414 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:00,114 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-24 17:50:00,114 DEBUG   SenderThread:39171 [sender.py:send():375] send: history
+2023-04-24 17:50:00,115 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: summary_record
+2023-04-24 17:50:00,117 INFO    SenderThread:39171 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-24 17:50:00,417 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/wandb-summary.json
+2023-04-24 17:50:01,119 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:50:01,421 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:05,445 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:06,133 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:50:07,454 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:09,470 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:11,384 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:50:11,478 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:13,487 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:13,527 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:50:13,527 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:50:15,494 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:16,435 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:50:17,501 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:19,506 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:21,513 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:21,567 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:50:23,521 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:25,076 DEBUG   SenderThread:39171 [sender.py:send():375] send: stats
+2023-04-24 17:50:25,531 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:26,611 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:50:27,539 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:28,527 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:50:28,527 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:50:29,204 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-24 17:50:29,205 DEBUG   SenderThread:39171 [sender.py:send():375] send: history
+2023-04-24 17:50:29,205 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: summary_record
+2023-04-24 17:50:29,207 INFO    SenderThread:39171 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-24 17:50:29,546 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/wandb-summary.json
+2023-04-24 17:50:29,547 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:31,553 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:32,207 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:50:37,208 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:50:39,583 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:42,411 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:50:43,527 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:50:43,527 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:50:43,607 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:45,615 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:47,621 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:47,650 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:50:49,628 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:51,634 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:52,962 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:50:53,641 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:55,077 DEBUG   SenderThread:39171 [sender.py:send():375] send: stats
+2023-04-24 17:50:55,653 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:57,660 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:50:58,153 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:50:58,527 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:50:58,527 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:50:59,671 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:01,678 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:03,200 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:51:03,684 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:05,692 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:07,698 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:08,551 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:51:09,707 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:11,715 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:13,527 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:51:13,527 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:51:13,597 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:51:13,755 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:15,763 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:17,769 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:18,773 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:51:19,778 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:21,787 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:23,800 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:23,831 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:51:25,078 DEBUG   SenderThread:39171 [sender.py:send():375] send: stats
+2023-04-24 17:51:25,808 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:26,500 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-24 17:51:26,501 DEBUG   SenderThread:39171 [sender.py:send():375] send: history
+2023-04-24 17:51:26,501 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: summary_record
+2023-04-24 17:51:26,503 INFO    SenderThread:39171 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-24 17:51:26,811 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/wandb-summary.json
+2023-04-24 17:51:27,814 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:28,528 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:51:28,528 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:51:29,589 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:51:29,824 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:33,837 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:34,628 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:51:35,842 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:39,773 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:51:39,863 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:41,874 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:43,527 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:51:43,528 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:51:43,881 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:45,068 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:51:45,887 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:47,894 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:49,900 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:50,158 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:51:51,921 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:52,924 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:54,929 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:55,079 DEBUG   SenderThread:39171 [sender.py:send():375] send: stats
+2023-04-24 17:51:55,724 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:51:56,937 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:51:58,528 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 17:51:58,528 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: stop_status
+2023-04-24 17:51:58,948 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:52:00,955 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:52:01,647 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:52:02,962 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:52:04,968 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:52:06,786 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:52:06,976 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:52:08,984 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:52:10,992 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:52:12,251 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:52:13,001 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:52:13,097 DEBUG   SenderThread:39171 [sender.py:send():375] send: exit
+2023-04-24 17:52:13,097 INFO    SenderThread:39171 [sender.py:send_exit():598] handling exit code: 255
+2023-04-24 17:52:13,097 INFO    SenderThread:39171 [sender.py:send_exit():600] handling runtime: 232
+2023-04-24 17:52:13,100 INFO    SenderThread:39171 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-24 17:52:13,100 INFO    SenderThread:39171 [sender.py:send_exit():606] send defer
+2023-04-24 17:52:13,100 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:13,101 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-24 17:52:13,101 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:13,101 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-04-24 17:52:13,101 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 1
+2023-04-24 17:52:13,101 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:13,101 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-24 17:52:13,101 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:13,101 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-04-24 17:52:13,101 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 2
+2023-04-24 17:52:13,101 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:13,101 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-24 17:52:13,101 INFO    HandlerThread:39171 [system_monitor.py:finish():190] Stopping system monitor
+2023-04-24 17:52:13,101 DEBUG   SystemMonitor:39171 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-24 17:52:13,101 DEBUG   SystemMonitor:39171 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-24 17:52:13,103 INFO    HandlerThread:39171 [interfaces.py:finish():202] Joined cpu monitor
+2023-04-24 17:52:13,103 INFO    HandlerThread:39171 [interfaces.py:finish():202] Joined disk monitor
+2023-04-24 17:52:13,218 INFO    HandlerThread:39171 [interfaces.py:finish():202] Joined gpu monitor
+2023-04-24 17:52:13,218 INFO    HandlerThread:39171 [interfaces.py:finish():202] Joined memory monitor
+2023-04-24 17:52:13,218 INFO    HandlerThread:39171 [interfaces.py:finish():202] Joined network monitor
+2023-04-24 17:52:13,218 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:13,218 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-04-24 17:52:13,218 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 3
+2023-04-24 17:52:13,218 DEBUG   SenderThread:39171 [sender.py:send():375] send: stats
+2023-04-24 17:52:13,219 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:13,219 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-24 17:52:13,219 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:13,219 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-04-24 17:52:13,219 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 4
+2023-04-24 17:52:13,219 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:13,219 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-24 17:52:13,219 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:13,219 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-04-24 17:52:13,219 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 5
+2023-04-24 17:52:13,219 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:13,219 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-24 17:52:13,220 DEBUG   SenderThread:39171 [sender.py:send():375] send: summary
+2023-04-24 17:52:13,222 INFO    SenderThread:39171 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-24 17:52:13,223 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:13,223 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-04-24 17:52:13,223 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 6
+2023-04-24 17:52:13,223 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:13,223 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-24 17:52:13,223 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:13,223 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-04-24 17:52:13,223 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 7
+2023-04-24 17:52:13,223 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 17:52:13,223 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:13,223 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-24 17:52:13,223 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:13,223 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-04-24 17:52:14,004 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/wandb-summary.json
+2023-04-24 17:52:14,005 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:52:14,098 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-24 17:52:15,008 INFO    Thread-12 :39171 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:52:15,631 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 8
+2023-04-24 17:52:15,631 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: poll_exit
+2023-04-24 17:52:15,631 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:15,631 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-24 17:52:15,632 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:15,632 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-04-24 17:52:15,983 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 9
+2023-04-24 17:52:15,983 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:15,983 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-24 17:52:15,983 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:15,983 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-04-24 17:52:15,983 INFO    SenderThread:39171 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-04-24 17:52:16,013 INFO    SenderThread:39171 [dir_watcher.py:finish():395] scan: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files
+2023-04-24 17:52:16,014 INFO    SenderThread:39171 [dir_watcher.py:finish():409] scan save: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/config.yaml config.yaml
+2023-04-24 17:52:16,014 INFO    SenderThread:39171 [dir_watcher.py:finish():409] scan save: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/wandb-summary.json wandb-summary.json
+2023-04-24 17:52:16,021 INFO    SenderThread:39171 [dir_watcher.py:finish():409] scan save: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log output.log
+2023-04-24 17:52:16,024 INFO    SenderThread:39171 [dir_watcher.py:finish():409] scan save: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/requirements.txt requirements.txt
+2023-04-24 17:52:16,027 INFO    SenderThread:39171 [dir_watcher.py:finish():409] scan save: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/wandb-metadata.json wandb-metadata.json
+2023-04-24 17:52:16,027 INFO    SenderThread:39171 [dir_watcher.py:finish():409] scan save: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/conda-environment.yaml conda-environment.yaml
+2023-04-24 17:52:16,030 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 10
+2023-04-24 17:52:16,030 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:16,030 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-24 17:52:16,030 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:16,030 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-04-24 17:52:16,030 INFO    SenderThread:39171 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-24 17:52:16,407 INFO    wandb-upload_1:39171 [upload_job.py:push():137] Uploaded file /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/config.yaml
+2023-04-24 17:52:16,427 INFO    wandb-upload_2:39171 [upload_job.py:push():137] Uploaded file /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/wandb-summary.json
+2023-04-24 17:52:16,448 INFO    wandb-upload_4:39171 [upload_job.py:push():137] Uploaded file /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/requirements.txt
+2023-04-24 17:52:16,453 INFO    wandb-upload_0:39171 [upload_job.py:push():137] Uploaded file /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/output.log
+2023-04-24 17:52:16,474 INFO    wandb-upload_3:39171 [upload_job.py:push():137] Uploaded file /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/files/conda-environment.yaml
+2023-04-24 17:52:16,674 INFO    Thread-11 :39171 [sender.py:transition_state():626] send defer: 11
+2023-04-24 17:52:16,675 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:16,675 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-24 17:52:16,675 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:16,675 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-04-24 17:52:16,675 INFO    SenderThread:39171 [file_pusher.py:join():173] waiting for file pusher
+2023-04-24 17:52:16,676 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 12
+2023-04-24 17:52:16,676 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:16,676 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-24 17:52:16,676 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:16,676 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-04-24 17:52:17,050 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 13
+2023-04-24 17:52:17,050 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:17,050 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-24 17:52:17,050 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:17,050 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-04-24 17:52:17,051 INFO    SenderThread:39171 [sender.py:transition_state():626] send defer: 14
+2023-04-24 17:52:17,051 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: defer
+2023-04-24 17:52:17,051 INFO    HandlerThread:39171 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-24 17:52:17,051 DEBUG   SenderThread:39171 [sender.py:send():375] send: final
+2023-04-24 17:52:17,051 DEBUG   SenderThread:39171 [sender.py:send():375] send: footer
+2023-04-24 17:52:17,051 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: defer
+2023-04-24 17:52:17,051 INFO    SenderThread:39171 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-04-24 17:52:17,051 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-24 17:52:17,051 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: poll_exit
+2023-04-24 17:52:17,052 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: server_info
+2023-04-24 17:52:17,052 DEBUG   SenderThread:39171 [sender.py:send_request():402] send_request: server_info
+2023-04-24 17:52:17,053 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-24 17:52:17,053 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-24 17:52:17,186 INFO    MainThread:39171 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-04-24 17:52:17,186 INFO    MainThread:39171 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-04-24 17:52:17,187 INFO    MainThread:39171 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-04-24 17:52:17,187 DEBUG   HandlerThread:39171 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-24 17:52:17,187 INFO    HandlerThread:39171 [handler.py:finish():845] shutting down handler
+2023-04-24 17:52:18,052 INFO    WriterThread:39171 [datastore.py:close():298] close: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_174820-aheyd0tj/run-aheyd0tj.wandb
+2023-04-24 17:52:18,186 INFO    SenderThread:39171 [sender.py:finish():1550] shutting down sender
+2023-04-24 17:52:18,186 INFO    SenderThread:39171 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-24 17:52:18,186 INFO    SenderThread:39171 [file_pusher.py:join():173] waiting for file pusher

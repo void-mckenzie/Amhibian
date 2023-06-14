@@ -1,0 +1,19 @@
+['heart']
+It is none
+None
+Starting meta-learning
+Using iou
+OUTER EPOCH 0
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+Traceback (most recent call last):
+  File "experiment_runner.py", line 239, in <module>
+    target_name=data.get("weights_name"))
+  File "experiment_runner.py", line 51, in meta_train
+    reptile.outer_loop(evaluate_every=4, path_to_save=save_path)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/reptile.py", line 286, in outer_loop
+    task_weights, loss_history, iou_history, task_val_loss, task_val_iou = self.inner_loop(dataset_id)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/reptile.py", line 427, in inner_loop
+    output, _ = model(image)
+ValueError: not enough values to unpack (expected 2, got 1)

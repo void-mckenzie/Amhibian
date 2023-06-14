@@ -1,0 +1,2 @@
+weights,target,exp_type,epochs,model_name,batch_size,ft_shots,lr,wd,loss_type,scheduler,scheduler_params,norm_type,volumetric,max_images,data_regime,train_loss,train_iou,val_loss,val_iou,test_loss,test_iou,elapsed,test_iou_all
+experiments/Amphibian_AttUNet-3d.pth,['spleen'],ft,20,AttUNet3,1,15,0.001,3e-05,combined_dice_bce,,,instance,False,,all,0.12454262215950165,0.825921911904562,0.778293552325119,0.23184005916118622,0.7112685008929466,0.28592243790626526,272.62412561569363,[0.28592243790626526]

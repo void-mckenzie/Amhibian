@@ -1,0 +1,7 @@
+{
+  "tasks": ["Task06_Lung", "Task07_Pancreas", "Task08_HepaticVessel"],
+    "normalize_ct": true,
+    "normalize_volume": true,
+      "output_format": "png",
+        "size": 256
+        }

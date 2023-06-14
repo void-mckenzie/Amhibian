@@ -1,0 +1,17 @@
+['heart']
+It is none
+None
+Starting meta-learning
+Using iou
+OUTER EPOCH 0
+[11, 0, 11, 14, 14]
+Traceback (most recent call last):
+  File "experiment_runner.py", line 245, in <module>
+    target_name=data.get("weights_name"))
+  File "experiment_runner.py", line 56, in meta_train
+    amphibian.outer_loop(evaluate_every=4, path_to_save=save_path)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/amphibian.py", line 314, in outer_loop
+    datasets_selection = self.sample_tasks()
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/amphibian.py", line 219, in sample_tasks
+    DATASET_WEIGHTS[name] *= (1-self.alpha)*DATASET_WEIGHTS[name]
+KeyError: 11

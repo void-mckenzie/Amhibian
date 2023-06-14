@@ -1,0 +1,26 @@
+2023-04-24 16:37:09,752 INFO    MainThread:34608 [wandb_setup.py:_flush():76] Configure stats pid to 34608
+2023-04-24 16:37:09,752 INFO    MainThread:34608 [wandb_setup.py:_flush():76] Loading settings from /home1/mganesh/.config/wandb/settings
+2023-04-24 16:37:09,753 INFO    MainThread:34608 [wandb_setup.py:_flush():76] Loading settings from /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/settings
+2023-04-24 16:37:09,753 INFO    MainThread:34608 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-24 16:37:09,753 INFO    MainThread:34608 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-24 16:37:09,753 INFO    MainThread:34608 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'experiment_runner.py', 'program': 'experiment_runner.py'}
+2023-04-24 16:37:09,753 INFO    MainThread:34608 [wandb_init.py:_log_setup():507] Logging user logs to /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_163709-pv8iudvh/logs/debug.log
+2023-04-24 16:37:09,753 INFO    MainThread:34608 [wandb_init.py:_log_setup():508] Logging internal logs to /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230424_163709-pv8iudvh/logs/debug-internal.log
+2023-04-24 16:37:09,753 INFO    MainThread:34608 [wandb_init.py:init():547] calling init triggers
+2023-04-24 16:37:09,754 INFO    MainThread:34608 [wandb_init.py:init():555] wandb.init called with sweep_config: {}
+config: {'epochs': 20, 'batch_size': 1, 'ft_shots': 15, 'lr': 0.001, 'wd': 3e-05, 'loss_type': 'iou', 'scheduler': None, 'scheduler_params': None, 'norm_type': 'instance', 'volumetric': False, 'max_images': None, 'data_regime': 'all'}
+2023-04-24 16:37:09,754 INFO    MainThread:34608 [wandb_init.py:init():595] starting backend
+2023-04-24 16:37:09,754 INFO    MainThread:34608 [wandb_init.py:init():599] setting up manager
+2023-04-24 16:37:09,758 INFO    MainThread:34608 [backend.py:_multiprocessing_setup():108] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-04-24 16:37:09,764 INFO    MainThread:34608 [wandb_init.py:init():605] backend started and connected
+2023-04-24 16:37:09,768 INFO    MainThread:34608 [wandb_init.py:init():695] updated telemetry
+2023-04-24 16:37:09,768 INFO    MainThread:34608 [wandb_init.py:init():732] communicating run to backend with 60.0 second timeout
+2023-04-24 16:37:10,117 INFO    MainThread:34608 [wandb_run.py:_on_init():2176] communicating current version
+2023-04-24 16:37:10,159 INFO    MainThread:34608 [wandb_run.py:_on_init():2185] got version response 
+2023-04-24 16:37:10,159 INFO    MainThread:34608 [wandb_init.py:init():782] starting run threads in backend
+2023-04-24 16:37:18,467 INFO    MainThread:34608 [wandb_run.py:_console_start():2157] atexit reg
+2023-04-24 16:37:18,468 INFO    MainThread:34608 [wandb_run.py:_redirect():2012] redirect: SettingsConsole.WRAP_RAW
+2023-04-24 16:37:18,468 INFO    MainThread:34608 [wandb_run.py:_redirect():2077] Wrapping output streams.
+2023-04-24 16:37:18,468 INFO    MainThread:34608 [wandb_run.py:_redirect():2102] Redirects installed.
+2023-04-24 16:37:18,469 INFO    MainThread:34608 [wandb_init.py:init():824] run started, returning control to user process
+2023-04-24 16:37:31,389 WARNING MsgRouterThr:34608 [router.py:message_loop():77] message_loop has been closed

@@ -1,0 +1,23 @@
+{
+  "weights_path": "experiments/weights_nonvolumetric_plain_dice.pth",
+  "targets": [
+    "spleen"
+  ],
+  "report_path": "out_results.csv",
+  "params": {
+    "epochs": 20,
+    "batch_size": 1,
+    "ft_shots": 15,
+    "lr": 0.001,
+    "wd": 0.00003,
+    "loss_type": "dice",
+    "scheduler": null,
+    "scheduler_params": null,
+    "norm_type": "instance",
+    "volumetric": false,
+    "max_images": null,
+    "data_regime": "all"
+  },
+  "exp_type": "ft",
+  "num_selections": 1
+}

@@ -1,0 +1,137 @@
+{'epochs': 20, 'batch_size': 1, 'ft_shots': 15, 'lr': 0.001, 'wd': 3e-05, 'loss_type': 'iou', 'scheduler': None, 'scheduler_params': None, 'norm_type': 'instance', 'volumetric': False, 'max_images': None, 'data_regime': 'all'}
+Starting fine-tuning
+Save path None
+/scratch2/mganesh/MetaMedSeg/MetaMedSeg/splits/spleen
+Using iou
+Creating data loaders for fine-tuning
+Training on all train data
+Loaded pre-trained meta-model
+Epoch 0
+Learning rate 0.001000
+Mean train iou loss for epoch 0: 0.6578
+Mean train IoU for epoch 0: 0.3657
+Mean validation iou loss in epoch 0: 0.4026
+Mean validation IoU in epoch 0: 0.6155
+Epoch completed in 0.75 minutes. Remaining time (approx): 14.93 minutes
+Epoch 1
+Learning rate 0.001000
+Mean train iou loss for epoch 1: 0.3110
+Mean train IoU for epoch 1: 0.7048
+Epoch completed in 0.65 minutes. Remaining time (approx): 12.26 minutes
+Epoch 2
+Learning rate 0.001000
+Mean train iou loss for epoch 2: 0.2240
+Mean train IoU for epoch 2: 0.7875
+Mean validation iou loss in epoch 2: 0.2238
+Mean validation IoU in epoch 2: 0.7868
+Epoch completed in 0.77 minutes. Remaining time (approx): 13.83 minutes
+Epoch 3
+Learning rate 0.001000
+Mean train iou loss for epoch 3: 0.1781
+Mean train IoU for epoch 3: 0.8318
+Epoch completed in 0.67 minutes. Remaining time (approx): 11.43 minutes
+Epoch 4
+Learning rate 0.001000
+Mean train iou loss for epoch 4: 0.1536
+Mean train IoU for epoch 4: 0.8539
+Mean validation iou loss in epoch 4: 0.1790
+Mean validation IoU in epoch 4: 0.8299
+Epoch completed in 0.72 minutes. Remaining time (approx): 11.58 minutes
+Epoch 5
+Learning rate 0.001000
+Mean train iou loss for epoch 5: 0.1322
+Mean train IoU for epoch 5: 0.8750
+Epoch completed in 0.66 minutes. Remaining time (approx): 9.84 minutes
+Epoch 6
+Learning rate 0.001000
+Mean train iou loss for epoch 6: 0.1222
+Mean train IoU for epoch 6: 0.8838
+Mean validation iou loss in epoch 6: 0.1543
+Mean validation IoU in epoch 6: 0.8522
+Epoch completed in 0.71 minutes. Remaining time (approx): 10.00 minutes
+Epoch 7
+Learning rate 0.001000
+Mean train iou loss for epoch 7: 0.1117
+Mean train IoU for epoch 7: 0.8936
+Epoch completed in 0.64 minutes. Remaining time (approx): 8.36 minutes
+Epoch 8
+Learning rate 0.001000
+Mean train iou loss for epoch 8: 0.1021
+Mean train IoU for epoch 8: 0.9025
+Mean validation iou loss in epoch 8: 0.1541
+Mean validation IoU in epoch 8: 0.8504
+Epoch completed in 0.65 minutes. Remaining time (approx): 7.82 minutes
+Epoch 9
+Learning rate 0.001000
+Mean train iou loss for epoch 9: 0.1069
+Mean train IoU for epoch 9: 0.8976
+Epoch completed in 0.61 minutes. Remaining time (approx): 6.67 minutes
+Epoch 10
+Learning rate 0.001000
+Mean train iou loss for epoch 10: 0.0949
+Mean train IoU for epoch 10: 0.9090
+Mean validation iou loss in epoch 10: 0.1262
+Mean validation IoU in epoch 10: 0.8776
+Epoch completed in 0.73 minutes. Remaining time (approx): 7.32 minutes
+Epoch 11
+Learning rate 0.001000
+Mean train iou loss for epoch 11: 0.0901
+Mean train IoU for epoch 11: 0.9132
+Epoch completed in 0.60 minutes. Remaining time (approx): 5.38 minutes
+Epoch 12
+Learning rate 0.001000
+Mean train iou loss for epoch 12: 0.0923
+Mean train IoU for epoch 12: 0.9111
+Mean validation iou loss in epoch 12: 0.1321
+Mean validation IoU in epoch 12: 0.8717
+Epoch completed in 0.72 minutes. Remaining time (approx): 5.76 minutes
+Epoch 13
+Learning rate 0.001000
+Mean train iou loss for epoch 13: 0.1019
+Mean train IoU for epoch 13: 0.9019
+Epoch completed in 0.68 minutes. Remaining time (approx): 4.73 minutes
+Epoch 14
+Learning rate 0.001000
+Mean train iou loss for epoch 14: 0.0878
+Mean train IoU for epoch 14: 0.9152
+Mean validation iou loss in epoch 14: 0.1346
+Mean validation IoU in epoch 14: 0.8669
+Epoch completed in 0.60 minutes. Remaining time (approx): 3.61 minutes
+Epoch 15
+Learning rate 0.001000
+Mean train iou loss for epoch 15: 0.0881
+Mean train IoU for epoch 15: 0.9152
+Epoch completed in 0.73 minutes. Remaining time (approx): 3.63 minutes
+Epoch 16
+Learning rate 0.001000
+Mean train iou loss for epoch 16: 0.0776
+Mean train IoU for epoch 16: 0.9251
+Mean validation iou loss in epoch 16: 0.2089
+Mean validation IoU in epoch 16: 0.7970
+Epoch completed in 0.72 minutes. Remaining time (approx): 2.89 minutes
+Epoch 17
+Learning rate 0.001000
+Mean train iou loss for epoch 17: 0.0838
+Mean train IoU for epoch 17: 0.9190
+Epoch completed in 0.68 minutes. Remaining time (approx): 2.05 minutes
+Epoch 18
+Learning rate 0.001000
+Mean train iou loss for epoch 18: 0.0706
+Mean train IoU for epoch 18: 0.9317
+Mean validation iou loss in epoch 18: 0.1122
+Mean validation IoU in epoch 18: 0.8908
+Epoch completed in 0.70 minutes. Remaining time (approx): 1.39 minutes
+Epoch 19
+Learning rate 0.001000
+Mean train iou loss for epoch 19: 0.0794
+Mean train IoU for epoch 19: 0.9233
+Mean validation iou loss in epoch 19: 0.1302
+Mean validation IoU in epoch 19: 0.8735
+Epoch completed in 0.41 minutes. Remaining time (approx): 0.41 minutes
+Test iou loss: 0.12363689169665884
+Test IoU: 0.8789932131767273
+Fine_tuning completed in 810.4961013225839 seconds.
+                                             weights  ...          test_iou_all
+0  experiments/amphibian_weights_plain_section2_i...  ...  [0.8789932131767273]
+
+[1 rows x 23 columns]

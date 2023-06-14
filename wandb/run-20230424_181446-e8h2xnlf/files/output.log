@@ -1,0 +1,73 @@
+['heart']
+It is none
+None
+Starting meta-learning
+Using dice
+OUTER EPOCH 0
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(83)forward()
+-> conv1 = self.dconv_down1(x)
+torch.Size([1, 1, 256, 256])
+torch.Size([1, 1, 256, 256])
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(84)forward()
+-> x = self.maxpool(conv1)
+torch.Size([1, 32, 256, 256])
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(86)forward()
+-> conv2 = self.dconv_down2(x)
+torch.Size([1, 32, 128, 128])
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(87)forward()
+-> x = self.maxpool(conv2)
+torch.Size([1, 64, 128, 128])
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(89)forward()
+-> x = self.dconv_down3(x)
+torch.Size([1, 64, 64, 64])
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(91)forward()
+-> feature_distill = x
+torch.Size([1, 128, 64, 64])
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(92)forward()
+-> x = self.upsample(x)
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(93)forward()
+-> x = torch.cat([x, conv2], dim=1)
+torch.Size([1, 128, 128, 128])
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(95)forward()
+-> x = self.dconv_up2(x)
+torch.Size([1, 192, 128, 128])
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(96)forward()
+-> x = self.upsample(x)
+torch.Size([1, 64, 128, 128])
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(97)forward()
+-> x = torch.cat([x, conv1], dim=1)
+torch.Size([1, 64, 256, 256])
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(99)forward()
+-> x = self.dconv_up1(x)
+torch.Size([1, 96, 256, 256])
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(101)forward()
+-> x = self.conv_last(x)
+torch.Size([1, 32, 256, 256])
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(102)forward()
+-> if self.add_sigmoid:
+> /scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py(105)forward()
+-> out = x
+torch.Size([1, 1, 256, 256])
+Traceback (most recent call last):
+  File "experiment_runner.py", line 239, in <module>
+    target_name=data.get("weights_name"))
+  File "experiment_runner.py", line 51, in meta_train
+    reptile.outer_loop(evaluate_every=4, path_to_save=save_path)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/reptile.py", line 286, in outer_loop
+    task_weights, loss_history, iou_history, task_val_loss, task_val_iou = self.inner_loop(dataset_id)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/reptile.py", line 427, in inner_loop
+    output, _ = model(image)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py", line 105, in forward
+    out = x
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/networks/unet.py", line 105, in forward
+    out = x
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

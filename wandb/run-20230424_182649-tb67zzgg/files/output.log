@@ -1,0 +1,3250 @@
+['heart']
+It is none
+None
+Starting meta-learning
+Using iou
+OUTER EPOCH 0
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.8235
+Mean train IoU for epoch 0: 0.1914
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.7387
+Mean train IoU for epoch 1: 0.2730
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.6946
+Mean train IoU for epoch 2: 0.3132
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.7153
+Mean train IoU for epoch 3: 0.2888
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.6556
+Mean train IoU for epoch 4: 0.3494
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.6497
+Mean train IoU for epoch 5: 0.3569
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.6158
+Mean train IoU for epoch 6: 0.3936
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.6334
+Mean train IoU for epoch 7: 0.3713
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.5832
+Mean train IoU for epoch 8: 0.4246
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.5936
+Mean train IoU for epoch 9: 0.4104
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.5597
+Mean train IoU for epoch 10: 0.4468
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.5597
+Mean train IoU for epoch 11: 0.4456
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.5453
+Mean train IoU for epoch 12: 0.4597
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.5432
+Mean train IoU for epoch 13: 0.4616
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.5266
+Mean train IoU for epoch 14: 0.4794
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.5042
+Mean train IoU for epoch 15: 0.5018
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.5003
+Mean train IoU for epoch 16: 0.5073
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.4757
+Mean train IoU for epoch 17: 0.5318
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.4866
+Mean train IoU for epoch 18: 0.5194
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.4552
+Mean train IoU for epoch 19: 0.5540
+Validating... on val dataset: 5 shots
+Val loss: 0.6000, val IoU: 0.4066
+Dataset 0, pancreas_cancer
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9695
+Mean train IoU for epoch 0: 0.0381
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9643
+Mean train IoU for epoch 1: 0.0390
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9616
+Mean train IoU for epoch 2: 0.0415
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9600
+Mean train IoU for epoch 3: 0.0440
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9601
+Mean train IoU for epoch 4: 0.0438
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9607
+Mean train IoU for epoch 5: 0.0423
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9628
+Mean train IoU for epoch 6: 0.0393
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9607
+Mean train IoU for epoch 7: 0.0432
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9600
+Mean train IoU for epoch 8: 0.0431
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9580
+Mean train IoU for epoch 9: 0.0457
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9570
+Mean train IoU for epoch 10: 0.0467
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9574
+Mean train IoU for epoch 11: 0.0470
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.9574
+Mean train IoU for epoch 12: 0.0463
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.9570
+Mean train IoU for epoch 13: 0.0469
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.9561
+Mean train IoU for epoch 14: 0.0475
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.9561
+Mean train IoU for epoch 15: 0.0475
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.9566
+Mean train IoU for epoch 16: 0.0472
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.9563
+Mean train IoU for epoch 17: 0.0469
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.9558
+Mean train IoU for epoch 18: 0.0477
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.9560
+Mean train IoU for epoch 19: 0.0472
+Validating... on val dataset: 5 shots
+Val loss: 0.9629, val IoU: 0.0411
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.8387
+Mean train IoU for epoch 0: 0.1681
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.7261
+Mean train IoU for epoch 1: 0.2901
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.7108
+Mean train IoU for epoch 2: 0.2967
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.6603
+Mean train IoU for epoch 3: 0.3450
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.6207
+Mean train IoU for epoch 4: 0.3916
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.5969
+Mean train IoU for epoch 5: 0.4098
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.5963
+Mean train IoU for epoch 6: 0.4079
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.5789
+Mean train IoU for epoch 7: 0.4272
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.5790
+Mean train IoU for epoch 8: 0.4256
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.5330
+Mean train IoU for epoch 9: 0.4726
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.5100
+Mean train IoU for epoch 10: 0.4961
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.4966
+Mean train IoU for epoch 11: 0.5091
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.4808
+Mean train IoU for epoch 12: 0.5247
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.4590
+Mean train IoU for epoch 13: 0.5471
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.4335
+Mean train IoU for epoch 14: 0.5744
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.4339
+Mean train IoU for epoch 15: 0.5729
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.4069
+Mean train IoU for epoch 16: 0.6012
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.4049
+Mean train IoU for epoch 17: 0.6028
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.3859
+Mean train IoU for epoch 18: 0.6231
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.3665
+Mean train IoU for epoch 19: 0.6423
+Validating... on val dataset: 5 shots
+Val loss: 0.3860, val IoU: 0.6250
+Dataset 14, vessel
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9810
+Mean train IoU for epoch 0: 0.0281
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9717
+Mean train IoU for epoch 1: 0.0345
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9662
+Mean train IoU for epoch 2: 0.0437
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9627
+Mean train IoU for epoch 3: 0.0532
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9615
+Mean train IoU for epoch 4: 0.0533
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9970
+Mean train IoU for epoch 5: 0.0000
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9693
+Mean train IoU for epoch 6: 0.0240
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9563
+Mean train IoU for epoch 7: 0.0592
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9644
+Mean train IoU for epoch 8: 0.0482
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9705
+Mean train IoU for epoch 9: 0.0451
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9554
+Mean train IoU for epoch 10: 0.0722
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9536
+Mean train IoU for epoch 11: 0.0633
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.9487
+Mean train IoU for epoch 12: 0.0612
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.9481
+Mean train IoU for epoch 13: 0.0604
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.9445
+Mean train IoU for epoch 14: 0.0651
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.9414
+Mean train IoU for epoch 15: 0.0736
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.9319
+Mean train IoU for epoch 16: 0.0886
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.9428
+Mean train IoU for epoch 17: 0.0640
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.9382
+Mean train IoU for epoch 18: 0.0731
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.9147
+Mean train IoU for epoch 19: 0.1136
+Validating... on val dataset: 5 shots
+Val loss: 0.8646, val IoU: 0.1981
+Dataset 14, vessel
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9768
+Mean train IoU for epoch 0: 0.0404
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9560
+Mean train IoU for epoch 1: 0.0702
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9517
+Mean train IoU for epoch 2: 0.0566
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9400
+Mean train IoU for epoch 3: 0.0798
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9388
+Mean train IoU for epoch 4: 0.0890
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9317
+Mean train IoU for epoch 5: 0.0809
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9229
+Mean train IoU for epoch 6: 0.1205
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9094
+Mean train IoU for epoch 7: 0.1232
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9192
+Mean train IoU for epoch 8: 0.0969
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9067
+Mean train IoU for epoch 9: 0.1146
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9071
+Mean train IoU for epoch 10: 0.1082
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9009
+Mean train IoU for epoch 11: 0.1234
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.8866
+Mean train IoU for epoch 12: 0.1441
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.8371
+Mean train IoU for epoch 13: 0.2063
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.8905
+Mean train IoU for epoch 14: 0.1306
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.9975
+Mean train IoU for epoch 15: 0.0000
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.9905
+Mean train IoU for epoch 16: 0.0000
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.9591
+Mean train IoU for epoch 17: 0.0262
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.9091
+Mean train IoU for epoch 18: 0.2504
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.8543
+Mean train IoU for epoch 19: 0.3048
+Validating... on val dataset: 5 shots
+Val loss: 0.8541, val IoU: 0.2122
+Mean val loss: 0.7335, mean val IoU: 0.2966
+Mean train iou loss in epoch 0: 0.7093
+Mean train IoU in epoch 0: 0.3324
+Validating... on val dataset: 5 shots
+Evaluating hippocampus_anterior:
+iou loss: 0.9263, IoU: 0.0089
+Evaluating pancreas_cancer:
+iou loss: 0.9937, IoU: 0.0094
+Evaluating hippocampus_anterior:
+iou loss: 0.9182, IoU: 0.0081
+Evaluating vessel:
+iou loss: 0.9929, IoU: 0.0196
+Evaluating vessel:
+iou loss: 0.9918, IoU: 0.0209
+Mean meta validation iou loss: 0.5807
+Mean meta validation IoU: 0.0077
+One epoch took 0.6632117885708187 minutes. Remaining time: 132.64235771416375 minutes
+OUTER EPOCH 1
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9837
+Mean train IoU for epoch 0: 0.0215
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9854
+Mean train IoU for epoch 1: 0.0084
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9790
+Mean train IoU for epoch 2: 0.0344
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9559
+Mean train IoU for epoch 3: 0.0621
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9771
+Mean train IoU for epoch 4: 0.0287
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9704
+Mean train IoU for epoch 5: 0.0414
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9329
+Mean train IoU for epoch 6: 0.0869
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9819
+Mean train IoU for epoch 7: 0.0158
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9605
+Mean train IoU for epoch 8: 0.0449
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9500
+Mean train IoU for epoch 9: 0.0609
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9239
+Mean train IoU for epoch 10: 0.0957
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.8948
+Mean train IoU for epoch 11: 0.1204
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.8666
+Mean train IoU for epoch 12: 0.1481
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.8625
+Mean train IoU for epoch 13: 0.1588
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.8155
+Mean train IoU for epoch 14: 0.2060
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.7901
+Mean train IoU for epoch 15: 0.2253
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.7545
+Mean train IoU for epoch 16: 0.2676
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.7111
+Mean train IoU for epoch 17: 0.3136
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.7243
+Mean train IoU for epoch 18: 0.2920
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.6835
+Mean train IoU for epoch 19: 0.3372
+Validating... on val dataset: 5 shots
+Val loss: 0.7715, val IoU: 0.2386
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.8405
+Mean train IoU for epoch 0: 0.1645
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.7774
+Mean train IoU for epoch 1: 0.2358
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.7710
+Mean train IoU for epoch 2: 0.2321
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.7404
+Mean train IoU for epoch 3: 0.2640
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.7273
+Mean train IoU for epoch 4: 0.2774
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.6931
+Mean train IoU for epoch 5: 0.3149
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.6879
+Mean train IoU for epoch 6: 0.3172
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.6533
+Mean train IoU for epoch 7: 0.3515
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.6349
+Mean train IoU for epoch 8: 0.3709
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.6219
+Mean train IoU for epoch 9: 0.3843
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.6058
+Mean train IoU for epoch 10: 0.4001
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.5780
+Mean train IoU for epoch 11: 0.4291
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.5736
+Mean train IoU for epoch 12: 0.4332
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.5620
+Mean train IoU for epoch 13: 0.4456
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.5371
+Mean train IoU for epoch 14: 0.4716
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.5074
+Mean train IoU for epoch 15: 0.5010
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.5084
+Mean train IoU for epoch 16: 0.4998
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.4892
+Mean train IoU for epoch 17: 0.5209
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.4690
+Mean train IoU for epoch 18: 0.5400
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.4548
+Mean train IoU for epoch 19: 0.5545
+Validating... on val dataset: 5 shots
+Val loss: 0.4290, val IoU: 0.5798
+Dataset 10, pancreas
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9786
+Mean train IoU for epoch 0: 0.0266
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9754
+Mean train IoU for epoch 1: 0.0281
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9698
+Mean train IoU for epoch 2: 0.0334
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9696
+Mean train IoU for epoch 3: 0.0328
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9706
+Mean train IoU for epoch 4: 0.0330
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9689
+Mean train IoU for epoch 5: 0.0342
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9700
+Mean train IoU for epoch 6: 0.0330
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9691
+Mean train IoU for epoch 7: 0.0353
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9686
+Mean train IoU for epoch 8: 0.0356
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9697
+Mean train IoU for epoch 9: 0.0332
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9681
+Mean train IoU for epoch 10: 0.0367
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9677
+Mean train IoU for epoch 11: 0.0358
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.9608
+Mean train IoU for epoch 12: 0.0488
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.9508
+Mean train IoU for epoch 13: 0.0612
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.9464
+Mean train IoU for epoch 14: 0.0740
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.9508
+Mean train IoU for epoch 15: 0.0693
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.9334
+Mean train IoU for epoch 16: 0.0919
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.9199
+Mean train IoU for epoch 17: 0.1096
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.9088
+Mean train IoU for epoch 18: 0.1236
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.9249
+Mean train IoU for epoch 19: 0.0924
+Validating... on val dataset: 5 shots
+Val loss: 0.9381, val IoU: 0.0770
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9825
+Mean train IoU for epoch 0: 0.0194
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9797
+Mean train IoU for epoch 1: 0.0224
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9767
+Mean train IoU for epoch 2: 0.0294
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9690
+Mean train IoU for epoch 3: 0.0431
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9686
+Mean train IoU for epoch 4: 0.0343
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9413
+Mean train IoU for epoch 5: 0.0697
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9112
+Mean train IoU for epoch 6: 0.1055
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.8952
+Mean train IoU for epoch 7: 0.1143
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.7950
+Mean train IoU for epoch 8: 0.2226
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.6663
+Mean train IoU for epoch 9: 0.3566
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.6586
+Mean train IoU for epoch 10: 0.3529
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.6400
+Mean train IoU for epoch 11: 0.3698
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.5358
+Mean train IoU for epoch 12: 0.4791
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.5076
+Mean train IoU for epoch 13: 0.5103
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.4473
+Mean train IoU for epoch 14: 0.5662
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.4180
+Mean train IoU for epoch 15: 0.5990
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.3825
+Mean train IoU for epoch 16: 0.6321
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.3683
+Mean train IoU for epoch 17: 0.6460
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.3413
+Mean train IoU for epoch 18: 0.6723
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.3439
+Mean train IoU for epoch 19: 0.6707
+Validating... on val dataset: 5 shots
+Val loss: 0.7380, val IoU: 0.2631
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9754
+Mean train IoU for epoch 0: 0.0264
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9728
+Mean train IoU for epoch 1: 0.0313
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9704
+Mean train IoU for epoch 2: 0.0369
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9444
+Mean train IoU for epoch 3: 0.0715
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.8917
+Mean train IoU for epoch 4: 0.1240
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.8599
+Mean train IoU for epoch 5: 0.1548
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.8317
+Mean train IoU for epoch 6: 0.1753
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.7858
+Mean train IoU for epoch 7: 0.2245
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.6949
+Mean train IoU for epoch 8: 0.3206
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.6685
+Mean train IoU for epoch 9: 0.3496
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.6727
+Mean train IoU for epoch 10: 0.3405
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.5333
+Mean train IoU for epoch 11: 0.4826
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.5303
+Mean train IoU for epoch 12: 0.4840
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.4685
+Mean train IoU for epoch 13: 0.5474
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.4541
+Mean train IoU for epoch 14: 0.5603
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.4303
+Mean train IoU for epoch 15: 0.5800
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.4430
+Mean train IoU for epoch 16: 0.5737
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.4089
+Mean train IoU for epoch 17: 0.6032
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.3649
+Mean train IoU for epoch 18: 0.6482
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.3373
+Mean train IoU for epoch 19: 0.6755
+Validating... on val dataset: 5 shots
+Val loss: 0.5818, val IoU: 0.4332
+Mean val loss: 0.6917, mean val IoU: 0.3183
+Mean train iou loss in epoch 1: 0.5489
+Mean train IoU in epoch 1: 0.4660
+One epoch took 0.9629231479484588 minutes. Remaining time: 191.6217064417433 minutes
+OUTER EPOCH 2
+Dataset 3, brain_edema_t1gd
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.8752
+Mean train IoU for epoch 0: 0.1503
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.8110
+Mean train IoU for epoch 1: 0.2104
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.8539
+Mean train IoU for epoch 2: 0.1564
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.8038
+Mean train IoU for epoch 3: 0.2116
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.7582
+Mean train IoU for epoch 4: 0.2537
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.7672
+Mean train IoU for epoch 5: 0.2413
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.7315
+Mean train IoU for epoch 6: 0.2788
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.6988
+Mean train IoU for epoch 7: 0.3092
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.6634
+Mean train IoU for epoch 8: 0.3465
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.6422
+Mean train IoU for epoch 9: 0.3670
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.6396
+Mean train IoU for epoch 10: 0.3685
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.5978
+Mean train IoU for epoch 11: 0.4104
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.6025
+Mean train IoU for epoch 12: 0.4051
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.6044
+Mean train IoU for epoch 13: 0.4033
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.5866
+Mean train IoU for epoch 14: 0.4219
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.5609
+Mean train IoU for epoch 15: 0.4487
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.5317
+Mean train IoU for epoch 16: 0.4779
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.5114
+Mean train IoU for epoch 17: 0.4976
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.5123
+Mean train IoU for epoch 18: 0.4986
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.4958
+Mean train IoU for epoch 19: 0.5145
+Validating... on val dataset: 5 shots
+Val loss: 0.7256, val IoU: 0.2785
+Dataset 6, vessel_cancer
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9306
+Mean train IoU for epoch 0: 0.0779
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9158
+Mean train IoU for epoch 1: 0.0972
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9109
+Mean train IoU for epoch 2: 0.0947
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9038
+Mean train IoU for epoch 3: 0.1090
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.8962
+Mean train IoU for epoch 4: 0.1105
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.8936
+Mean train IoU for epoch 5: 0.1132
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.8951
+Mean train IoU for epoch 6: 0.1120
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.8919
+Mean train IoU for epoch 7: 0.1136
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.8903
+Mean train IoU for epoch 8: 0.1154
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.8878
+Mean train IoU for epoch 9: 0.1168
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9162
+Mean train IoU for epoch 10: 0.0882
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.8955
+Mean train IoU for epoch 11: 0.1107
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.8921
+Mean train IoU for epoch 12: 0.1183
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.8842
+Mean train IoU for epoch 13: 0.1237
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.8654
+Mean train IoU for epoch 14: 0.1426
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.8554
+Mean train IoU for epoch 15: 0.1555
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.8496
+Mean train IoU for epoch 16: 0.1683
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.8415
+Mean train IoU for epoch 17: 0.1684
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.8210
+Mean train IoU for epoch 18: 0.1992
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.8151
+Mean train IoU for epoch 19: 0.2101
+Validating... on val dataset: 5 shots
+Val loss: 0.8300, val IoU: 0.1806
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.8307
+Mean train IoU for epoch 0: 0.1842
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.7430
+Mean train IoU for epoch 1: 0.2693
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.7046
+Mean train IoU for epoch 2: 0.3010
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.7154
+Mean train IoU for epoch 3: 0.2891
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.6193
+Mean train IoU for epoch 4: 0.3889
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.6502
+Mean train IoU for epoch 5: 0.3529
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.6025
+Mean train IoU for epoch 6: 0.4065
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.5807
+Mean train IoU for epoch 7: 0.4259
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.5572
+Mean train IoU for epoch 8: 0.4499
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.5415
+Mean train IoU for epoch 9: 0.4648
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.5294
+Mean train IoU for epoch 10: 0.4770
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.5078
+Mean train IoU for epoch 11: 0.4980
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.5038
+Mean train IoU for epoch 12: 0.5027
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.4816
+Mean train IoU for epoch 13: 0.5254
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.4815
+Mean train IoU for epoch 14: 0.5246
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.4684
+Mean train IoU for epoch 15: 0.5379
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.4497
+Mean train IoU for epoch 16: 0.5564
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.4493
+Mean train IoU for epoch 17: 0.5560
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.4329
+Mean train IoU for epoch 18: 0.5742
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.4258
+Mean train IoU for epoch 19: 0.5797
+Validating... on val dataset: 5 shots
+Val loss: 0.4736, val IoU: 0.5320
+Dataset 14, vessel
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9776
+Mean train IoU for epoch 0: 0.0445
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9615
+Mean train IoU for epoch 1: 0.0587
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9573
+Mean train IoU for epoch 2: 0.0480
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9580
+Mean train IoU for epoch 3: 0.0473
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9601
+Mean train IoU for epoch 4: 0.0389
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9525
+Mean train IoU for epoch 5: 0.0629
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9473
+Mean train IoU for epoch 6: 0.0730
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9419
+Mean train IoU for epoch 7: 0.0834
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9281
+Mean train IoU for epoch 8: 0.0821
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9695
+Mean train IoU for epoch 9: 0.0394
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9964
+Mean train IoU for epoch 10: 0.0000
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9881
+Mean train IoU for epoch 11: 0.0000
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.9645
+Mean train IoU for epoch 12: 0.0101
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.9314
+Mean train IoU for epoch 13: 0.0901
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.9924
+Mean train IoU for epoch 14: 0.0000
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.9798
+Mean train IoU for epoch 15: 0.0000
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.9637
+Mean train IoU for epoch 16: 0.0000
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.9544
+Mean train IoU for epoch 17: 0.0286
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.9457
+Mean train IoU for epoch 18: 0.0880
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.9337
+Mean train IoU for epoch 19: 0.0948
+Validating... on val dataset: 5 shots
+Val loss: 0.9538, val IoU: 0.0473
+Dataset 6, vessel_cancer
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9479
+Mean train IoU for epoch 0: 0.0640
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9478
+Mean train IoU for epoch 1: 0.0585
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9410
+Mean train IoU for epoch 2: 0.0628
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9441
+Mean train IoU for epoch 3: 0.0626
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9377
+Mean train IoU for epoch 4: 0.0692
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9379
+Mean train IoU for epoch 5: 0.0695
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9350
+Mean train IoU for epoch 6: 0.0714
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9322
+Mean train IoU for epoch 7: 0.0725
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9293
+Mean train IoU for epoch 8: 0.0789
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9301
+Mean train IoU for epoch 9: 0.0745
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9280
+Mean train IoU for epoch 10: 0.0769
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9271
+Mean train IoU for epoch 11: 0.0776
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.9276
+Mean train IoU for epoch 12: 0.0769
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.9253
+Mean train IoU for epoch 13: 0.0794
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.9254
+Mean train IoU for epoch 14: 0.0804
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.9255
+Mean train IoU for epoch 15: 0.0790
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.9254
+Mean train IoU for epoch 16: 0.0788
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.9229
+Mean train IoU for epoch 17: 0.0828
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.9230
+Mean train IoU for epoch 18: 0.0836
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.9209
+Mean train IoU for epoch 19: 0.0859
+Validating... on val dataset: 5 shots
+Val loss: 0.9707, val IoU: 0.0309
+Mean val loss: 0.7907, mean val IoU: 0.2138
+Mean train iou loss in epoch 2: 0.7183
+Mean train IoU in epoch 2: 0.2970
+One epoch took 0.6112113335480293 minutes. Remaining time: 121.01984404250979 minutes
+OUTER EPOCH 3
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9848
+Mean train IoU for epoch 0: 0.0170
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9823
+Mean train IoU for epoch 1: 0.0230
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9836
+Mean train IoU for epoch 2: 0.0204
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9834
+Mean train IoU for epoch 3: 0.0179
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9780
+Mean train IoU for epoch 4: 0.0339
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9763
+Mean train IoU for epoch 5: 0.0370
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9833
+Mean train IoU for epoch 6: 0.0167
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9770
+Mean train IoU for epoch 7: 0.0312
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9528
+Mean train IoU for epoch 8: 0.1023
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.8905
+Mean train IoU for epoch 9: 0.1922
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.8528
+Mean train IoU for epoch 10: 0.2295
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.8101
+Mean train IoU for epoch 11: 0.2449
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.7411
+Mean train IoU for epoch 12: 0.3072
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.7252
+Mean train IoU for epoch 13: 0.3204
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.7021
+Mean train IoU for epoch 14: 0.3417
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.6745
+Mean train IoU for epoch 15: 0.3738
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.6451
+Mean train IoU for epoch 16: 0.3862
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.6119
+Mean train IoU for epoch 17: 0.4287
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.5807
+Mean train IoU for epoch 18: 0.4610
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.5420
+Mean train IoU for epoch 19: 0.5056
+Validating... on val dataset: 5 shots
+Val loss: 0.6841, val IoU: 0.3346
+Dataset 4, brain_edema_FLAIR
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.8305
+Mean train IoU for epoch 0: 0.2905
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.6888
+Mean train IoU for epoch 1: 0.3657
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.6003
+Mean train IoU for epoch 2: 0.4186
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.5406
+Mean train IoU for epoch 3: 0.4729
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.5805
+Mean train IoU for epoch 4: 0.4299
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.5461
+Mean train IoU for epoch 5: 0.4625
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.5455
+Mean train IoU for epoch 6: 0.4620
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.5364
+Mean train IoU for epoch 7: 0.4718
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.5381
+Mean train IoU for epoch 8: 0.4730
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.5322
+Mean train IoU for epoch 9: 0.4783
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.5530
+Mean train IoU for epoch 10: 0.4582
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.5229
+Mean train IoU for epoch 11: 0.4910
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.5179
+Mean train IoU for epoch 12: 0.4937
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.5237
+Mean train IoU for epoch 13: 0.4867
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.5093
+Mean train IoU for epoch 14: 0.5029
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.5060
+Mean train IoU for epoch 15: 0.5047
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.5012
+Mean train IoU for epoch 16: 0.5112
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.4987
+Mean train IoU for epoch 17: 0.5149
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.4899
+Mean train IoU for epoch 18: 0.5248
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.4880
+Mean train IoU for epoch 19: 0.5313
+Validating... on val dataset: 5 shots
+Val loss: 0.4283, val IoU: 0.5859
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9717
+Mean train IoU for epoch 0: 0.0332
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9607
+Mean train IoU for epoch 1: 0.0481
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9516
+Mean train IoU for epoch 2: 0.0536
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9356
+Mean train IoU for epoch 3: 0.0779
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.8932
+Mean train IoU for epoch 4: 0.1238
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.8481
+Mean train IoU for epoch 5: 0.1700
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.7924
+Mean train IoU for epoch 6: 0.2227
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.7369
+Mean train IoU for epoch 7: 0.2753
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.7898
+Mean train IoU for epoch 8: 0.2213
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.7209
+Mean train IoU for epoch 9: 0.2880
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.6360
+Mean train IoU for epoch 10: 0.3775
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.6468
+Mean train IoU for epoch 11: 0.3735
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.5757
+Mean train IoU for epoch 12: 0.4363
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.5237
+Mean train IoU for epoch 13: 0.4942
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.4321
+Mean train IoU for epoch 14: 0.5857
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.4661
+Mean train IoU for epoch 15: 0.5514
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.4168
+Mean train IoU for epoch 16: 0.6007
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.3492
+Mean train IoU for epoch 17: 0.6704
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.3242
+Mean train IoU for epoch 18: 0.6919
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.3010
+Mean train IoU for epoch 19: 0.7215
+Validating... on val dataset: 5 shots
+Val loss: 0.4613, val IoU: 0.5506
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9840
+Mean train IoU for epoch 0: 0.0178
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9822
+Mean train IoU for epoch 1: 0.0187
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9787
+Mean train IoU for epoch 2: 0.0285
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9758
+Mean train IoU for epoch 3: 0.0401
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9561
+Mean train IoU for epoch 4: 0.0730
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9345
+Mean train IoU for epoch 5: 0.0939
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.8506
+Mean train IoU for epoch 6: 0.1844
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.8071
+Mean train IoU for epoch 7: 0.2148
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.7798
+Mean train IoU for epoch 8: 0.2302
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.7456
+Mean train IoU for epoch 9: 0.2640
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.7773
+Mean train IoU for epoch 10: 0.2318
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.7097
+Mean train IoU for epoch 11: 0.3050
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.6832
+Mean train IoU for epoch 12: 0.3281
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.6839
+Mean train IoU for epoch 13: 0.3279
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.6334
+Mean train IoU for epoch 14: 0.3812
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.6134
+Mean train IoU for epoch 15: 0.4008
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.6085
+Mean train IoU for epoch 16: 0.4034
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.5780
+Mean train IoU for epoch 17: 0.4349
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.5720
+Mean train IoU for epoch 18: 0.4404
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.5614
+Mean train IoU for epoch 19: 0.4541
+Validating... on val dataset: 5 shots
+Val loss: 0.6749, val IoU: 0.3332
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9830
+Mean train IoU for epoch 0: 0.0196
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9634
+Mean train IoU for epoch 1: 0.0718
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.8735
+Mean train IoU for epoch 2: 0.2005
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.8001
+Mean train IoU for epoch 3: 0.2241
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.7845
+Mean train IoU for epoch 4: 0.2288
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.7319
+Mean train IoU for epoch 5: 0.2820
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.7197
+Mean train IoU for epoch 6: 0.2857
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9978
+Mean train IoU for epoch 7: 0.0000
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9978
+Mean train IoU for epoch 8: 0.0000
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9452
+Mean train IoU for epoch 9: 0.0544
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.6963
+Mean train IoU for epoch 10: 0.3127
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.6713
+Mean train IoU for epoch 11: 0.3381
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.6585
+Mean train IoU for epoch 12: 0.3496
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.6084
+Mean train IoU for epoch 13: 0.4011
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.5850
+Mean train IoU for epoch 14: 0.4252
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.5551
+Mean train IoU for epoch 15: 0.4550
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.5415
+Mean train IoU for epoch 16: 0.4701
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.5083
+Mean train IoU for epoch 17: 0.5042
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.4918
+Mean train IoU for epoch 18: 0.5180
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.5092
+Mean train IoU for epoch 19: 0.5017
+Validating... on val dataset: 5 shots
+Val loss: 0.7335, val IoU: 0.2698
+Mean val loss: 0.5964, mean val IoU: 0.4148
+Mean train iou loss in epoch 3: 0.4803
+Mean train IoU in epoch 3: 0.5428
+One epoch took 1.5013403452311953 minutes. Remaining time: 295.7640480105455 minutes
+OUTER EPOCH 4
+Dataset 16, brain_ne_tumour_FLAIR
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9078
+Mean train IoU for epoch 0: 0.1995
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.7753
+Mean train IoU for epoch 1: 0.2916
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.7245
+Mean train IoU for epoch 2: 0.2905
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.6866
+Mean train IoU for epoch 3: 0.3233
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.6891
+Mean train IoU for epoch 4: 0.3192
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.6791
+Mean train IoU for epoch 5: 0.3282
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.6755
+Mean train IoU for epoch 6: 0.3300
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.6742
+Mean train IoU for epoch 7: 0.3368
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.6764
+Mean train IoU for epoch 8: 0.3288
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.6693
+Mean train IoU for epoch 9: 0.3364
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.6697
+Mean train IoU for epoch 10: 0.3371
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.6710
+Mean train IoU for epoch 11: 0.3349
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.6649
+Mean train IoU for epoch 12: 0.3423
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.6626
+Mean train IoU for epoch 13: 0.3438
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.6635
+Mean train IoU for epoch 14: 0.3430
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.6571
+Mean train IoU for epoch 15: 0.3490
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.6521
+Mean train IoU for epoch 16: 0.3543
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.6489
+Mean train IoU for epoch 17: 0.3589
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.6474
+Mean train IoU for epoch 18: 0.3595
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.6424
+Mean train IoU for epoch 19: 0.3661
+Validating... on val dataset: 5 shots
+Val loss: 0.7613, val IoU: 0.2399
+Dataset 7, brain_edema_T1w
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.8969
+Mean train IoU for epoch 0: 0.1312
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.8650
+Mean train IoU for epoch 1: 0.1414
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.8463
+Mean train IoU for epoch 2: 0.1613
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.8493
+Mean train IoU for epoch 3: 0.1555
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.8535
+Mean train IoU for epoch 4: 0.1534
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.8440
+Mean train IoU for epoch 5: 0.1594
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.8346
+Mean train IoU for epoch 6: 0.1729
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.8177
+Mean train IoU for epoch 7: 0.2012
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.7964
+Mean train IoU for epoch 8: 0.2153
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.7843
+Mean train IoU for epoch 9: 0.2315
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.7863
+Mean train IoU for epoch 10: 0.2244
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.7531
+Mean train IoU for epoch 11: 0.2664
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.7669
+Mean train IoU for epoch 12: 0.2497
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.7482
+Mean train IoU for epoch 13: 0.2657
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.7527
+Mean train IoU for epoch 14: 0.2591
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.7188
+Mean train IoU for epoch 15: 0.2978
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.7145
+Mean train IoU for epoch 16: 0.2977
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.6996
+Mean train IoU for epoch 17: 0.3148
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.7019
+Mean train IoU for epoch 18: 0.3113
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.6865
+Mean train IoU for epoch 19: 0.3258
+Validating... on val dataset: 5 shots
+Val loss: 0.8088, val IoU: 0.1976
+Dataset 14, vessel
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9817
+Mean train IoU for epoch 0: 0.0266
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9717
+Mean train IoU for epoch 1: 0.0339
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9669
+Mean train IoU for epoch 2: 0.0402
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9655
+Mean train IoU for epoch 3: 0.0384
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9622
+Mean train IoU for epoch 4: 0.0498
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9655
+Mean train IoU for epoch 5: 0.0464
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9579
+Mean train IoU for epoch 6: 0.0654
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9609
+Mean train IoU for epoch 7: 0.0471
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9568
+Mean train IoU for epoch 8: 0.0611
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9564
+Mean train IoU for epoch 9: 0.0629
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9852
+Mean train IoU for epoch 10: 0.0186
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9562
+Mean train IoU for epoch 11: 0.0653
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.9505
+Mean train IoU for epoch 12: 0.0673
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.9447
+Mean train IoU for epoch 13: 0.0723
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.9415
+Mean train IoU for epoch 14: 0.0713
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.9381
+Mean train IoU for epoch 15: 0.0753
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.9335
+Mean train IoU for epoch 16: 0.0837
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.9155
+Mean train IoU for epoch 17: 0.1105
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.9119
+Mean train IoU for epoch 18: 0.1135
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.8938
+Mean train IoU for epoch 19: 0.1464
+Validating... on val dataset: 5 shots
+Val loss: 0.9410, val IoU: 0.0664
+Dataset 6, vessel_cancer
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9593
+Mean train IoU for epoch 0: 0.0560
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9366
+Mean train IoU for epoch 1: 0.0677
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9277
+Mean train IoU for epoch 2: 0.0756
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9363
+Mean train IoU for epoch 3: 0.0668
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9318
+Mean train IoU for epoch 4: 0.0707
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9294
+Mean train IoU for epoch 5: 0.0776
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9292
+Mean train IoU for epoch 6: 0.0759
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9272
+Mean train IoU for epoch 7: 0.0786
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9278
+Mean train IoU for epoch 8: 0.0814
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9286
+Mean train IoU for epoch 9: 0.0744
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9313
+Mean train IoU for epoch 10: 0.0707
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9292
+Mean train IoU for epoch 11: 0.0748
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.9263
+Mean train IoU for epoch 12: 0.0794
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.9234
+Mean train IoU for epoch 13: 0.0837
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.9219
+Mean train IoU for epoch 14: 0.0849
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.9279
+Mean train IoU for epoch 15: 0.0761
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.9169
+Mean train IoU for epoch 16: 0.0919
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.9140
+Mean train IoU for epoch 17: 0.0922
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.9062
+Mean train IoU for epoch 18: 0.1025
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.8969
+Mean train IoU for epoch 19: 0.1173
+Validating... on val dataset: 5 shots
+Val loss: 0.9513, val IoU: 0.0542
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.8348
+Mean train IoU for epoch 0: 0.1756
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.7870
+Mean train IoU for epoch 1: 0.2189
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.7442
+Mean train IoU for epoch 2: 0.2628
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.7691
+Mean train IoU for epoch 3: 0.2347
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.6993
+Mean train IoU for epoch 4: 0.3053
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.7140
+Mean train IoU for epoch 5: 0.2907
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.6560
+Mean train IoU for epoch 6: 0.3500
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.6276
+Mean train IoU for epoch 7: 0.3786
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.6108
+Mean train IoU for epoch 8: 0.3958
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.6482
+Mean train IoU for epoch 9: 0.3564
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.6117
+Mean train IoU for epoch 10: 0.3947
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.5772
+Mean train IoU for epoch 11: 0.4300
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.5541
+Mean train IoU for epoch 12: 0.4540
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.5216
+Mean train IoU for epoch 13: 0.4853
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.5139
+Mean train IoU for epoch 14: 0.4943
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.5060
+Mean train IoU for epoch 15: 0.5022
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.4826
+Mean train IoU for epoch 16: 0.5244
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.4528
+Mean train IoU for epoch 17: 0.5575
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.4478
+Mean train IoU for epoch 18: 0.5612
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.4413
+Mean train IoU for epoch 19: 0.5681
+Validating... on val dataset: 5 shots
+Val loss: 0.5889, val IoU: 0.4159
+Mean val loss: 0.8103, mean val IoU: 0.1948
+Mean train iou loss in epoch 4: 0.7122
+Mean train IoU in epoch 4: 0.3047
+Validating... on val dataset: 5 shots
+Evaluating brain_ne_tumour_FLAIR:
+iou loss: 0.9897, IoU: 0.0783
+Evaluating brain_edema_T1w:
+iou loss: 0.9670, IoU: 0.0765
+Evaluating vessel:
+iou loss: 0.9920, IoU: 0.0202
+Evaluating vessel_cancer:
+iou loss: 0.9776, IoU: 0.0812
+Evaluating hippocampus_anterior:
+iou loss: 0.9216, IoU: 0.0023
+Mean meta validation iou loss: 0.9696
+Mean meta validation IoU: 0.0517
+One epoch took 0.7783301180306201 minutes. Remaining time: 152.55270313400155 minutes
+OUTER EPOCH 5
+Dataset 10, pancreas
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9745
+Mean train IoU for epoch 0: 0.0335
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9682
+Mean train IoU for epoch 1: 0.0356
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9695
+Mean train IoU for epoch 2: 0.0341
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9686
+Mean train IoU for epoch 3: 0.0336
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9658
+Mean train IoU for epoch 4: 0.0371
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9655
+Mean train IoU for epoch 5: 0.0404
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9641
+Mean train IoU for epoch 6: 0.0392
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9877
+Mean train IoU for epoch 7: 0.0149
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9697
+Mean train IoU for epoch 8: 0.0356
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9686
+Mean train IoU for epoch 9: 0.0359
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9655
+Mean train IoU for epoch 10: 0.0389
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9608
+Mean train IoU for epoch 11: 0.0467
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.9477
+Mean train IoU for epoch 12: 0.0684
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.9500
+Mean train IoU for epoch 13: 0.0622
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.9355
+Mean train IoU for epoch 14: 0.0863
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.9338
+Mean train IoU for epoch 15: 0.0827
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.9106
+Mean train IoU for epoch 16: 0.1214
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.9118
+Mean train IoU for epoch 17: 0.1125
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.8923
+Mean train IoU for epoch 18: 0.1484
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.8908
+Mean train IoU for epoch 19: 0.1467
+Validating... on val dataset: 5 shots
+Val loss: 0.9552, val IoU: 0.0451
+Dataset 16, brain_ne_tumour_FLAIR
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9322
+Mean train IoU for epoch 0: 0.1160
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.7916
+Mean train IoU for epoch 1: 0.2696
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.7681
+Mean train IoU for epoch 2: 0.2412
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.7232
+Mean train IoU for epoch 3: 0.2853
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9933
+Mean train IoU for epoch 4: 0.0000
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.8089
+Mean train IoU for epoch 5: 0.1974
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.7241
+Mean train IoU for epoch 6: 0.2924
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.6939
+Mean train IoU for epoch 7: 0.3171
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.6914
+Mean train IoU for epoch 8: 0.3194
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.6960
+Mean train IoU for epoch 9: 0.3169
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.6778
+Mean train IoU for epoch 10: 0.3292
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.6685
+Mean train IoU for epoch 11: 0.3398
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.6661
+Mean train IoU for epoch 12: 0.3400
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.6490
+Mean train IoU for epoch 13: 0.3593
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.6319
+Mean train IoU for epoch 14: 0.3781
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.6224
+Mean train IoU for epoch 15: 0.3867
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.6254
+Mean train IoU for epoch 16: 0.3828
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.6163
+Mean train IoU for epoch 17: 0.3906
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.5877
+Mean train IoU for epoch 18: 0.4229
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.5868
+Mean train IoU for epoch 19: 0.4245
+Validating... on val dataset: 5 shots
+Val loss: 0.7698, val IoU: 0.2324
+Dataset 6, vessel_cancer
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9381
+Mean train IoU for epoch 0: 0.0750
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9209
+Mean train IoU for epoch 1: 0.0831
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9112
+Mean train IoU for epoch 2: 0.0958
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9490
+Mean train IoU for epoch 3: 0.0625
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9081
+Mean train IoU for epoch 4: 0.0994
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9056
+Mean train IoU for epoch 5: 0.1007
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9038
+Mean train IoU for epoch 6: 0.1025
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9025
+Mean train IoU for epoch 7: 0.1023
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.8979
+Mean train IoU for epoch 8: 0.1089
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9010
+Mean train IoU for epoch 9: 0.1039
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.8951
+Mean train IoU for epoch 10: 0.1077
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.8908
+Mean train IoU for epoch 11: 0.1138
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.8745
+Mean train IoU for epoch 12: 0.1302
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.9142
+Mean train IoU for epoch 13: 0.0912
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.9033
+Mean train IoU for epoch 14: 0.1053
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.9002
+Mean train IoU for epoch 15: 0.1082
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.8978
+Mean train IoU for epoch 16: 0.1087
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.8972
+Mean train IoU for epoch 17: 0.1097
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.8932
+Mean train IoU for epoch 18: 0.1127
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.8920
+Mean train IoU for epoch 19: 0.1134
+Validating... on val dataset: 5 shots
+Val loss: 0.9118, val IoU: 0.0933
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9832
+Mean train IoU for epoch 0: 0.0229
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9624
+Mean train IoU for epoch 1: 0.0488
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9659
+Mean train IoU for epoch 2: 0.0439
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9446
+Mean train IoU for epoch 3: 0.0693
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.8588
+Mean train IoU for epoch 4: 0.1737
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.8219
+Mean train IoU for epoch 5: 0.1970
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.7700
+Mean train IoU for epoch 6: 0.2435
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.7291
+Mean train IoU for epoch 7: 0.2916
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.6957
+Mean train IoU for epoch 8: 0.3191
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.6738
+Mean train IoU for epoch 9: 0.3376
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.6466
+Mean train IoU for epoch 10: 0.3657
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.5903
+Mean train IoU for epoch 11: 0.4240
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.5693
+Mean train IoU for epoch 12: 0.4413
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.5509
+Mean train IoU for epoch 13: 0.4593
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.5397
+Mean train IoU for epoch 14: 0.4714
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.5096
+Mean train IoU for epoch 15: 0.5017
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.5046
+Mean train IoU for epoch 16: 0.5056
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.4912
+Mean train IoU for epoch 17: 0.5197
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.4810
+Mean train IoU for epoch 18: 0.5295
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.4823
+Mean train IoU for epoch 19: 0.5281
+Validating... on val dataset: 5 shots
+Val loss: 0.6369, val IoU: 0.3635
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9769
+Mean train IoU for epoch 0: 0.0293
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9726
+Mean train IoU for epoch 1: 0.0283
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9720
+Mean train IoU for epoch 2: 0.0293
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9748
+Mean train IoU for epoch 3: 0.0277
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9698
+Mean train IoU for epoch 4: 0.0388
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9656
+Mean train IoU for epoch 5: 0.0409
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9511
+Mean train IoU for epoch 6: 0.0544
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9333
+Mean train IoU for epoch 7: 0.0873
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.8629
+Mean train IoU for epoch 8: 0.1970
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.7354
+Mean train IoU for epoch 9: 0.3203
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.7250
+Mean train IoU for epoch 10: 0.3104
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.7600
+Mean train IoU for epoch 11: 0.2547
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.6330
+Mean train IoU for epoch 12: 0.3871
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.5909
+Mean train IoU for epoch 13: 0.4289
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.5523
+Mean train IoU for epoch 14: 0.4690
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.5151
+Mean train IoU for epoch 15: 0.5079
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.5032
+Mean train IoU for epoch 16: 0.5168
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.4904
+Mean train IoU for epoch 17: 0.5306
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.4876
+Mean train IoU for epoch 18: 0.5316
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.4588
+Mean train IoU for epoch 19: 0.5577
+Validating... on val dataset: 5 shots
+Val loss: 0.6593, val IoU: 0.3554
+Mean val loss: 0.7866, mean val IoU: 0.2179
+Mean train iou loss in epoch 5: 0.6621
+Mean train IoU in epoch 5: 0.3541
+One epoch took 1.0165585121372716 minutes. Remaining time: 198.22890986676796 minutes
+OUTER EPOCH 6
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9850
+Mean train IoU for epoch 0: 0.0195
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9834
+Mean train IoU for epoch 1: 0.0296
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9691
+Mean train IoU for epoch 2: 0.0622
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9350
+Mean train IoU for epoch 3: 0.0975
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9308
+Mean train IoU for epoch 4: 0.0836
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.8734
+Mean train IoU for epoch 5: 0.1473
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.8790
+Mean train IoU for epoch 6: 0.1264
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.8335
+Mean train IoU for epoch 7: 0.1765
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.8064
+Mean train IoU for epoch 8: 0.2036
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.8061
+Mean train IoU for epoch 9: 0.2002
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.7578
+Mean train IoU for epoch 10: 0.2543
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.7646
+Mean train IoU for epoch 11: 0.2470
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.7329
+Mean train IoU for epoch 12: 0.2783
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.6979
+Mean train IoU for epoch 13: 0.3165
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.6402
+Mean train IoU for epoch 14: 0.3780
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.6490
+Mean train IoU for epoch 15: 0.3636
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.6425
+Mean train IoU for epoch 16: 0.3699
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.6328
+Mean train IoU for epoch 17: 0.3822
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.5860
+Mean train IoU for epoch 18: 0.4314
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.5288
+Mean train IoU for epoch 19: 0.4889
+Validating... on val dataset: 5 shots
+Val loss: 0.6381, val IoU: 0.3697
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.8278
+Mean train IoU for epoch 0: 0.1823
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.7992
+Mean train IoU for epoch 1: 0.2048
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.7734
+Mean train IoU for epoch 2: 0.2307
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.7190
+Mean train IoU for epoch 3: 0.2899
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.6835
+Mean train IoU for epoch 4: 0.3236
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.6798
+Mean train IoU for epoch 5: 0.3246
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.6629
+Mean train IoU for epoch 6: 0.3438
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.6469
+Mean train IoU for epoch 7: 0.3581
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.6240
+Mean train IoU for epoch 8: 0.3815
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.6210
+Mean train IoU for epoch 9: 0.3842
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.6106
+Mean train IoU for epoch 10: 0.3953
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.5948
+Mean train IoU for epoch 11: 0.4116
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.5792
+Mean train IoU for epoch 12: 0.4272
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.5861
+Mean train IoU for epoch 13: 0.4191
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.5564
+Mean train IoU for epoch 14: 0.4491
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.5415
+Mean train IoU for epoch 15: 0.4654
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.5337
+Mean train IoU for epoch 16: 0.4738
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.5186
+Mean train IoU for epoch 17: 0.4893
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.5031
+Mean train IoU for epoch 18: 0.5043
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.4914
+Mean train IoU for epoch 19: 0.5174
+Validating... on val dataset: 5 shots
+Val loss: 0.5157, val IoU: 0.4919
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9835
+Mean train IoU for epoch 0: 0.0177
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9822
+Mean train IoU for epoch 1: 0.0210
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9760
+Mean train IoU for epoch 2: 0.0424
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9554
+Mean train IoU for epoch 3: 0.0678
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9066
+Mean train IoU for epoch 4: 0.1275
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.8762
+Mean train IoU for epoch 5: 0.1373
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.8504
+Mean train IoU for epoch 6: 0.1664
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.8352
+Mean train IoU for epoch 7: 0.1769
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.8955
+Mean train IoU for epoch 8: 0.1072
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9762
+Mean train IoU for epoch 9: 0.0210
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.8239
+Mean train IoU for epoch 10: 0.1877
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.8144
+Mean train IoU for epoch 11: 0.1936
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.7523
+Mean train IoU for epoch 12: 0.2583
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.7598
+Mean train IoU for epoch 13: 0.2458
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.7154
+Mean train IoU for epoch 14: 0.2953
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.6982
+Mean train IoU for epoch 15: 0.3115
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.6934
+Mean train IoU for epoch 16: 0.3138
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.6610
+Mean train IoU for epoch 17: 0.3468
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.6446
+Mean train IoU for epoch 18: 0.3676
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.6142
+Mean train IoU for epoch 19: 0.3976
+Validating... on val dataset: 5 shots
+Val loss: 0.6822, val IoU: 0.3264
+Dataset 14, vessel
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9793
+Mean train IoU for epoch 0: 0.0323
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9676
+Mean train IoU for epoch 1: 0.0416
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9622
+Mean train IoU for epoch 2: 0.0546
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9592
+Mean train IoU for epoch 3: 0.0546
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9607
+Mean train IoU for epoch 4: 0.0534
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9544
+Mean train IoU for epoch 5: 0.0573
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9487
+Mean train IoU for epoch 6: 0.0739
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9688
+Mean train IoU for epoch 7: 0.0378
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9503
+Mean train IoU for epoch 8: 0.0676
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9471
+Mean train IoU for epoch 9: 0.0681
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9485
+Mean train IoU for epoch 10: 0.0610
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9450
+Mean train IoU for epoch 11: 0.0708
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.9424
+Mean train IoU for epoch 12: 0.0711
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.9427
+Mean train IoU for epoch 13: 0.0709
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.9430
+Mean train IoU for epoch 14: 0.0672
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.9411
+Mean train IoU for epoch 15: 0.0731
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.9372
+Mean train IoU for epoch 16: 0.0771
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.9333
+Mean train IoU for epoch 17: 0.0858
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.9319
+Mean train IoU for epoch 18: 0.0831
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.9297
+Mean train IoU for epoch 19: 0.0870
+Validating... on val dataset: 5 shots
+Val loss: 0.9107, val IoU: 0.1167
+Dataset 13, brain_e_tumour_T1w
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9508
+Mean train IoU for epoch 0: 0.0579
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9416
+Mean train IoU for epoch 1: 0.0607
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9428
+Mean train IoU for epoch 2: 0.0587
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9427
+Mean train IoU for epoch 3: 0.0608
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9461
+Mean train IoU for epoch 4: 0.0570
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9362
+Mean train IoU for epoch 5: 0.0730
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9407
+Mean train IoU for epoch 6: 0.0586
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9379
+Mean train IoU for epoch 7: 0.0745
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9222
+Mean train IoU for epoch 8: 0.0887
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9299
+Mean train IoU for epoch 9: 0.0782
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9251
+Mean train IoU for epoch 10: 0.0829
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9009
+Mean train IoU for epoch 11: 0.1097
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.8741
+Mean train IoU for epoch 12: 0.1484
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.8655
+Mean train IoU for epoch 13: 0.1496
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.8614
+Mean train IoU for epoch 14: 0.1550
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.8603
+Mean train IoU for epoch 15: 0.1544
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.8414
+Mean train IoU for epoch 16: 0.1728
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.8736
+Mean train IoU for epoch 17: 0.1403
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.8518
+Mean train IoU for epoch 18: 0.1579
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.8363
+Mean train IoU for epoch 19: 0.1759
+Validating... on val dataset: 5 shots
+Val loss: 0.8546, val IoU: 0.1507
+Mean val loss: 0.7202, mean val IoU: 0.2911
+Mean train iou loss in epoch 6: 0.6801
+Mean train IoU in epoch 6: 0.3333
+One epoch took 1.0453812681216126 minutes. Remaining time: 202.80396601559283 minutes
+OUTER EPOCH 7
+Dataset 0, pancreas_cancer
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9880
+Mean train IoU for epoch 0: 0.0148
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9767
+Mean train IoU for epoch 1: 0.0297
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9725
+Mean train IoU for epoch 2: 0.0313
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9713
+Mean train IoU for epoch 3: 0.0336
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9702
+Mean train IoU for epoch 4: 0.0341
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9788
+Mean train IoU for epoch 5: 0.0292
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9682
+Mean train IoU for epoch 6: 0.0362
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9675
+Mean train IoU for epoch 7: 0.0376
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9652
+Mean train IoU for epoch 8: 0.0435
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9581
+Mean train IoU for epoch 9: 0.0503
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9564
+Mean train IoU for epoch 10: 0.0518
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9361
+Mean train IoU for epoch 11: 0.0806
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.9191
+Mean train IoU for epoch 12: 0.1096
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.8974
+Mean train IoU for epoch 13: 0.1292
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.8792
+Mean train IoU for epoch 14: 0.1624
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.8968
+Mean train IoU for epoch 15: 0.1410
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.8707
+Mean train IoU for epoch 16: 0.1514
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.8221
+Mean train IoU for epoch 17: 0.2170
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.8367
+Mean train IoU for epoch 18: 0.1948
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.8170
+Mean train IoU for epoch 19: 0.2193
+Validating... on val dataset: 5 shots
+Val loss: 0.9479, val IoU: 0.0531
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9810
+Mean train IoU for epoch 0: 0.0216
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9734
+Mean train IoU for epoch 1: 0.0405
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9638
+Mean train IoU for epoch 2: 0.0603
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9360
+Mean train IoU for epoch 3: 0.0847
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9715
+Mean train IoU for epoch 4: 0.0331
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9615
+Mean train IoU for epoch 5: 0.0456
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.8959
+Mean train IoU for epoch 6: 0.1185
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.8432
+Mean train IoU for epoch 7: 0.1720
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.8081
+Mean train IoU for epoch 8: 0.2100
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.7714
+Mean train IoU for epoch 9: 0.2369
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.7689
+Mean train IoU for epoch 10: 0.2400
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.7267
+Mean train IoU for epoch 11: 0.2827
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.6903
+Mean train IoU for epoch 12: 0.3212
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.6821
+Mean train IoU for epoch 13: 0.3295
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.6709
+Mean train IoU for epoch 14: 0.3390
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.6091
+Mean train IoU for epoch 15: 0.4043
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.6041
+Mean train IoU for epoch 16: 0.4100
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.5445
+Mean train IoU for epoch 17: 0.4704
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.5794
+Mean train IoU for epoch 18: 0.4308
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.5341
+Mean train IoU for epoch 19: 0.4769
+Validating... on val dataset: 5 shots
+Val loss: 0.5522, val IoU: 0.4594
+Dataset 0, pancreas_cancer
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.9814
+Mean train IoU for epoch 0: 0.0240
+Inner Epoch 1
+Learning rate 0.008000
+Mean train iou loss for epoch 1: 0.9764
+Mean train IoU for epoch 1: 0.0269
+Inner Epoch 2
+Learning rate 0.006400
+Mean train iou loss for epoch 2: 0.9748
+Mean train IoU for epoch 2: 0.0280
+Inner Epoch 3
+Learning rate 0.005120
+Mean train iou loss for epoch 3: 0.9755
+Mean train IoU for epoch 3: 0.0273
+Inner Epoch 4
+Learning rate 0.004096
+Mean train iou loss for epoch 4: 0.9751
+Mean train IoU for epoch 4: 0.0283
+Inner Epoch 5
+Learning rate 0.003277
+Mean train iou loss for epoch 5: 0.9746
+Mean train IoU for epoch 5: 0.0283
+Inner Epoch 6
+Learning rate 0.002621
+Mean train iou loss for epoch 6: 0.9748
+Mean train IoU for epoch 6: 0.0290
+Inner Epoch 7
+Learning rate 0.002097
+Mean train iou loss for epoch 7: 0.9758
+Mean train IoU for epoch 7: 0.0277
+Inner Epoch 8
+Learning rate 0.001678
+Mean train iou loss for epoch 8: 0.9749
+Mean train IoU for epoch 8: 0.0277
+Inner Epoch 9
+Learning rate 0.001342
+Mean train iou loss for epoch 9: 0.9744
+Mean train IoU for epoch 9: 0.0291
+Inner Epoch 10
+Learning rate 0.001074
+Mean train iou loss for epoch 10: 0.9734
+Mean train IoU for epoch 10: 0.0308
+Inner Epoch 11
+Learning rate 0.000859
+Mean train iou loss for epoch 11: 0.9736
+Mean train IoU for epoch 11: 0.0299
+Inner Epoch 12
+Learning rate 0.000687
+Mean train iou loss for epoch 12: 0.9732
+Mean train IoU for epoch 12: 0.0299
+Inner Epoch 13
+Learning rate 0.000550
+Mean train iou loss for epoch 13: 0.9719
+Mean train IoU for epoch 13: 0.0321
+Inner Epoch 14
+Learning rate 0.000440
+Mean train iou loss for epoch 14: 0.9704
+Mean train IoU for epoch 14: 0.0382
+Inner Epoch 15
+Learning rate 0.000352
+Mean train iou loss for epoch 15: 0.9657
+Mean train IoU for epoch 15: 0.0522
+Inner Epoch 16
+Learning rate 0.000281
+Mean train iou loss for epoch 16: 0.9665
+Mean train IoU for epoch 16: 0.0424
+Inner Epoch 17
+Learning rate 0.000225
+Mean train iou loss for epoch 17: 0.9636
+Mean train IoU for epoch 17: 0.0517
+Inner Epoch 18
+Learning rate 0.000180
+Mean train iou loss for epoch 18: 0.9559
+Mean train IoU for epoch 18: 0.0757
+Inner Epoch 19
+Learning rate 0.000144
+Mean train iou loss for epoch 19: 0.9614
+Mean train IoU for epoch 19: 0.0512
+Validating... on val dataset: 5 shots
+Val loss: 0.9429, val IoU: 0.1023
+Dataset 9, hippocampus_posterior
+Inner Epoch 0
+Learning rate 0.010000
+Mean train iou loss for epoch 0: 0.8328
+Mean train IoU for epoch 0: 0.1781
+Inner Epoch 1
+Learning rate 0.008000
+Traceback (most recent call last):
+  File "experiment_runner.py", line 239, in <module>
+    target_name=data.get("weights_name"))
+  File "experiment_runner.py", line 51, in meta_train
+    reptile.outer_loop(evaluate_every=4, path_to_save=save_path)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/reptile.py", line 286, in outer_loop
+    task_weights, loss_history, iou_history, task_val_loss, task_val_iou = self.inner_loop(dataset_id)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/reptile.py", line 422, in inner_loop
+    for image, mask in train_loader:
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/datasets/meta_dataset.py", line 180, in __getitem__
+    image = Image.open(path_to_image).convert("L")
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/PIL/Image.py", line 3236, in open
+    fp = builtins.open(filename, "rb")
+KeyboardInterrupt

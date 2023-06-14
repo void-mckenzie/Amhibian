@@ -1,0 +1,2 @@
+weights,target,exp_type,epochs,batch_size,ft_shots,lr,wd,loss_type,scheduler,scheduler_params,norm_type,volumetric,max_images,data_regime,train_loss,train_iou,val_loss,val_iou,test_loss,test_iou,elapsed,test_iou_all
+experiments/amphibian_weights_plain_section1_meta.pth,['spleen'],ft,20,1,15,0.001,3e-05,iou,,,instance,False,,all,0.07337260795044831,0.9289410341815976,0.11353151632260673,0.8898535370826721,0.10760186166327616,0.8962010145187378,874.6106667029671,[0.8962010145187378]

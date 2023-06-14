@@ -1,0 +1,139 @@
+{'epochs': 20, 'batch_size': 1, 'ft_shots': 15, 'lr': 0.001, 'wd': 3e-05, 'loss_type': 'combined_dice_bce', 'scheduler': None, 'scheduler_params': None, 'norm_type': 'instance', 'volumetric': False, 'max_images': None, 'data_regime': 'all'}
+Starting fine-tuning
+Save path None
+/scratch2/mganesh/MetaMedSeg/MetaMedSeg/splits/spleen
+Using combined_dice_bce
+Creating data loaders for fine-tuning
+Training on all train data
+Loaded pre-trained meta-model
+Epoch 0
+Learning rate 0.001000
+/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/nn/functional.py:1967: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Mean train combined_dice_bce loss for epoch 0: 0.7166
+Mean train IoU for epoch 0: 0.3991
+Mean validation combined_dice_bce loss in epoch 0: 0.3848
+Mean validation IoU in epoch 0: 0.5702
+Epoch completed in 0.72 minutes. Remaining time (approx): 14.48 minutes
+Epoch 1
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 1: 0.2655
+Mean train IoU for epoch 1: 0.6833
+Epoch completed in 0.70 minutes. Remaining time (approx): 13.27 minutes
+Epoch 2
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 2: 0.1860
+Mean train IoU for epoch 2: 0.7610
+Mean validation combined_dice_bce loss in epoch 2: 0.1894
+Mean validation IoU in epoch 2: 0.7524
+Epoch completed in 0.86 minutes. Remaining time (approx): 15.45 minutes
+Epoch 3
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 3: 0.1441
+Mean train IoU for epoch 3: 0.8057
+Epoch completed in 0.73 minutes. Remaining time (approx): 12.45 minutes
+Epoch 4
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 4: 0.1199
+Mean train IoU for epoch 4: 0.8336
+Mean validation combined_dice_bce loss in epoch 4: 0.1354
+Mean validation IoU in epoch 4: 0.8159
+Epoch completed in 0.80 minutes. Remaining time (approx): 12.74 minutes
+Epoch 5
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 5: 0.1093
+Mean train IoU for epoch 5: 0.8458
+Epoch completed in 0.71 minutes. Remaining time (approx): 10.70 minutes
+Epoch 6
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 6: 0.0926
+Mean train IoU for epoch 6: 0.8669
+Mean validation combined_dice_bce loss in epoch 6: 0.1002
+Mean validation IoU in epoch 6: 0.8544
+Epoch completed in 0.79 minutes. Remaining time (approx): 11.04 minutes
+Epoch 7
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 7: 0.0778
+Mean train IoU for epoch 7: 0.8853
+Epoch completed in 0.70 minutes. Remaining time (approx): 9.11 minutes
+Epoch 8
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 8: 0.0843
+Mean train IoU for epoch 8: 0.8765
+Mean validation combined_dice_bce loss in epoch 8: 0.1012
+Mean validation IoU in epoch 8: 0.8553
+Epoch completed in 0.75 minutes. Remaining time (approx): 9.00 minutes
+Epoch 9
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 9: 0.0711
+Mean train IoU for epoch 9: 0.8941
+Epoch completed in 0.73 minutes. Remaining time (approx): 8.03 minutes
+Epoch 10
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 10: 0.0749
+Mean train IoU for epoch 10: 0.8898
+Mean validation combined_dice_bce loss in epoch 10: 0.0830
+Mean validation IoU in epoch 10: 0.8787
+Epoch completed in 0.80 minutes. Remaining time (approx): 7.98 minutes
+Epoch 11
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 11: 0.0649
+Mean train IoU for epoch 11: 0.9023
+Epoch completed in 0.86 minutes. Remaining time (approx): 7.78 minutes
+Epoch 12
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 12: 0.0657
+Mean train IoU for epoch 12: 0.9014
+Mean validation combined_dice_bce loss in epoch 12: 0.0918
+Mean validation IoU in epoch 12: 0.8685
+Epoch completed in 0.91 minutes. Remaining time (approx): 7.31 minutes
+Epoch 13
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 13: 0.0575
+Mean train IoU for epoch 13: 0.9124
+Epoch completed in 0.76 minutes. Remaining time (approx): 5.29 minutes
+Epoch 14
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 14: 0.0681
+Mean train IoU for epoch 14: 0.8985
+Mean validation combined_dice_bce loss in epoch 14: 0.1348
+Mean validation IoU in epoch 14: 0.8127
+Epoch completed in 0.85 minutes. Remaining time (approx): 5.11 minutes
+Epoch 15
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 15: 0.0562
+Mean train IoU for epoch 15: 0.9144
+Epoch completed in 0.89 minutes. Remaining time (approx): 4.46 minutes
+Epoch 16
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 16: 0.0568
+Mean train IoU for epoch 16: 0.9137
+Mean validation combined_dice_bce loss in epoch 16: 0.0816
+Mean validation IoU in epoch 16: 0.8796
+Epoch completed in 0.89 minutes. Remaining time (approx): 3.55 minutes
+Epoch 17
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 17: 0.0583
+Mean train IoU for epoch 17: 0.9115
+Epoch completed in 0.79 minutes. Remaining time (approx): 2.37 minutes
+Epoch 18
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 18: 0.0508
+Mean train IoU for epoch 18: 0.9216
+Mean validation combined_dice_bce loss in epoch 18: 0.1130
+Mean validation IoU in epoch 18: 0.8465
+Epoch completed in 0.83 minutes. Remaining time (approx): 1.66 minutes
+Epoch 19
+Learning rate 0.001000
+Mean train combined_dice_bce loss for epoch 19: 0.0707
+Mean train IoU for epoch 19: 0.8958
+Mean validation combined_dice_bce loss in epoch 19: 0.0600
+Mean validation IoU in epoch 19: 0.9067
+Epoch completed in 0.87 minutes. Remaining time (approx): 0.87 minutes
+Test combined_dice_bce loss: 0.06108254166367241
+Test IoU: 0.905254065990448
+Fine_tuning completed in 970.3991508316249 seconds.
+                                             weights  ...         test_iou_all
+0  experiments/amphibian_weights_plain_section2_i...  ...  [0.905254065990448]
+
+[1 rows x 23 columns]

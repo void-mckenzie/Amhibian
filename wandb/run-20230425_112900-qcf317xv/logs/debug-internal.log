@@ -1,0 +1,95 @@
+2023-04-25 11:29:00,571 INFO    StreamThr :49358 [internal.py:wandb_internal():89] W&B internal server running at pid: 49358, started at: 2023-04-25 11:29:00.560171
+2023-04-25 11:29:00,572 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: status
+2023-04-25 11:29:00,573 INFO    WriterThread:49358 [datastore.py:open_for_write():85] open: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/run-qcf317xv.wandb
+2023-04-25 11:29:00,575 DEBUG   SenderThread:49358 [sender.py:send():375] send: header
+2023-04-25 11:29:00,576 DEBUG   SenderThread:49358 [sender.py:send():375] send: run
+2023-04-25 11:29:00,813 INFO    SenderThread:49358 [dir_watcher.py:__init__():219] watching files in: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files
+2023-04-25 11:29:00,813 INFO    SenderThread:49358 [sender.py:_start_run_threads():1127] run started: qcf317xv with start time 1682447340.562391
+2023-04-25 11:29:00,813 DEBUG   SenderThread:49358 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 11:29:00,815 INFO    SenderThread:49358 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 11:29:00,821 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: check_version
+2023-04-25 11:29:00,821 DEBUG   SenderThread:49358 [sender.py:send_request():402] send_request: check_version
+2023-04-25 11:29:00,899 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: run_start
+2023-04-25 11:29:00,902 DEBUG   HandlerThread:49358 [system_info.py:__init__():31] System info init
+2023-04-25 11:29:00,902 DEBUG   HandlerThread:49358 [system_info.py:__init__():46] System info init done
+2023-04-25 11:29:00,902 INFO    HandlerThread:49358 [system_monitor.py:start():181] Starting system monitor
+2023-04-25 11:29:00,902 INFO    SystemMonitor:49358 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-25 11:29:00,903 INFO    HandlerThread:49358 [system_monitor.py:probe():201] Collecting system info
+2023-04-25 11:29:00,903 INFO    SystemMonitor:49358 [interfaces.py:start():190] Started cpu monitoring
+2023-04-25 11:29:00,903 INFO    SystemMonitor:49358 [interfaces.py:start():190] Started disk monitoring
+2023-04-25 11:29:00,904 INFO    SystemMonitor:49358 [interfaces.py:start():190] Started gpu monitoring
+2023-04-25 11:29:00,904 INFO    SystemMonitor:49358 [interfaces.py:start():190] Started memory monitoring
+2023-04-25 11:29:00,905 INFO    SystemMonitor:49358 [interfaces.py:start():190] Started network monitoring
+2023-04-25 11:29:00,919 DEBUG   HandlerThread:49358 [system_info.py:probe():195] Probing system
+2023-04-25 11:29:00,919 DEBUG   HandlerThread:49358 [system_info.py:probe():240] Probing system done
+2023-04-25 11:29:00,919 DEBUG   HandlerThread:49358 [system_monitor.py:probe():210] {'os': 'Linux-3.10.0-1160.71.1.el7.x86_64-x86_64-with-centos-7.7.1908-Core', 'python': '3.7.12', 'heartbeatAt': '2023-04-25T18:29:00.919820', 'startedAt': '2023-04-25T18:29:00.520665', 'docker': None, 'cuda': None, 'args': ('--exp_type=meta', '--params=golden_configs/meta_params_nonvolu_plain_amphibian.json'), 'state': 'running', 'program': 'experiment_runner.py', 'codePath': 'experiment_runner.py', 'host': 'b01-15.hpc.usc.edu', 'username': 'mganesh', 'executable': '/home1/mganesh/miniconda3/envs/medseg/bin/python', 'cpu_count': 64, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2595.361000000002, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}, {'current': 2595.361, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 125.7036247253418, 'used': 3.0699234008789062}, 'gpu': 'NVIDIA A100-PCIE-40GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA A100-PCIE-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-PCIE-40GB', 'memory_total': 42949672960}], 'memory': {'total': 251.4072494506836}}
+2023-04-25 11:29:00,919 INFO    HandlerThread:49358 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-25 11:29:00,919 INFO    HandlerThread:49358 [system_monitor.py:probe():214] Publishing system info
+2023-04-25 11:29:00,920 DEBUG   HandlerThread:49358 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-04-25 11:29:00,921 DEBUG   HandlerThread:49358 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-25 11:29:00,921 DEBUG   HandlerThread:49358 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-04-25 11:29:01,817 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/conda-environment.yaml
+2023-04-25 11:29:01,818 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/requirements.txt
+2023-04-25 11:29:01,819 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/wandb-summary.json
+2023-04-25 11:29:04,099 DEBUG   HandlerThread:49358 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-25 11:29:04,110 INFO    HandlerThread:49358 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-25 11:29:04,119 DEBUG   SenderThread:49358 [sender.py:send():375] send: files
+2023-04-25 11:29:04,119 INFO    SenderThread:49358 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-25 11:29:04,127 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-25 11:29:04,128 DEBUG   SenderThread:49358 [sender.py:send_request():402] send_request: stop_status
+2023-04-25 11:29:04,221 DEBUG   SenderThread:49358 [sender.py:send():375] send: telemetry
+2023-04-25 11:29:04,505 INFO    wandb-upload_0:49358 [upload_job.py:push():137] Uploaded file /tmp/SLURM_14526334/tmp2sc8p43owandb/95n2mpos-wandb-metadata.json
+2023-04-25 11:29:04,825 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/conda-environment.yaml
+2023-04-25 11:29:04,825 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:04,826 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_created():278] file/dir created: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/wandb-metadata.json
+2023-04-25 11:29:06,169 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 11:29:06,831 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:10,847 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:11,424 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 11:29:12,853 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:14,857 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:16,669 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 11:29:16,863 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:18,872 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:19,127 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-25 11:29:19,128 DEBUG   SenderThread:49358 [sender.py:send_request():402] send_request: stop_status
+2023-04-25 11:29:20,877 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:21,900 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 11:29:22,884 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:24,890 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:26,895 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:27,050 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 11:29:28,900 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:30,909 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:32,495 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 11:29:32,916 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:32,917 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/config.yaml
+2023-04-25 11:29:34,127 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-25 11:29:34,128 DEBUG   SenderThread:49358 [sender.py:send_request():402] send_request: stop_status
+2023-04-25 11:29:34,922 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:36,933 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:37,986 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 11:29:38,950 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:40,956 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:42,963 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:42,994 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 11:29:44,974 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:46,978 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:48,078 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 11:29:48,984 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:49,130 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-25 11:29:49,131 DEBUG   SenderThread:49358 [sender.py:send_request():402] send_request: stop_status
+2023-04-25 11:29:50,992 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:53,003 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:53,372 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 11:29:55,008 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:57,017 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:58,621 DEBUG   HandlerThread:49358 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 11:29:58,938 INFO    cpu       :49358 [interfaces.py:monitor():140] Process cpu has exited.
+2023-04-25 11:29:58,939 DEBUG   SystemMonitor:49358 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-25 11:29:58,939 DEBUG   SystemMonitor:49358 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-25 11:29:58,939 DEBUG   SystemMonitor:49358 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-25 11:29:58,940 DEBUG   SenderThread:49358 [sender.py:send():375] send: stats
+2023-04-25 11:29:58,941 INFO    memory    :49358 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2023-04-25 11:29:59,023 INFO    Thread-12 :49358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112900-qcf317xv/files/output.log
+2023-04-25 11:29:59,867 INFO    MainThread:49358 [internal.py:handle_exit():76] Internal process exited

@@ -1,0 +1,18 @@
+['heart']
+It is none
+None
+Starting meta-learning
+Using iou
+OUTER EPOCH 0
+{'brain_edema_FLAIR': 0.08333333333333333, 'brain_edema_t1gd': 0.08333333333333333, 'brain_edema_T1w': 0.08333333333333333, 'brain_edema_T2w': 0.08333333333333333, 'brain_e_tumour_FLAIR': 0.08333333333333333, 'brain_e_tumour_t1gd': 0.08333333333333333, 'brain_e_tumour_T1w': 0.08333333333333333, 'brain_e_tumour_T2w': 0.08333333333333333, 'brain_ne_tumour_FLAIR': 0.08333333333333333, 'brain_ne_tumour_t1gd': 0.08333333333333333, 'brain_ne_tumour_T1w': 0.08333333333333333, 'brain_ne_tumour_T2w': 0.08333333333333333, 'colon': 1, 'heart': 1, 'hippocampus_anterior': 0.5, 'hippocampus_posterior': 0.5, 'lung': 1, 'pancreas': 0.5, 'pancreas_cancer': 0.5, 'prostate_peripheral_T2': 0.5, 'prostate_transitional_T2': 0.5, 'spleen': 1, 'vessel': 0.5, 'vessel_cancer': 0.5}
+Traceback (most recent call last):
+  File "experiment_runner.py", line 245, in <module>
+    target_name=data.get("weights_name"))
+  File "experiment_runner.py", line 56, in meta_train
+    amphibian.outer_loop(evaluate_every=4, path_to_save=save_path)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/amphibian.py", line 317, in outer_loop
+    datasets_selection = self.sample_tasks()
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/amphibian.py", line 223, in sample_tasks
+    f=input()
+OSError: [Errno 9] Bad file descriptor
+{'brain_edema_FLAIR': 0.08333333333333333, 'brain_edema_t1gd': 0.08333333333333333, 'brain_edema_T1w': 0.08333333333333333, 'brain_edema_T2w': 0.08333333333333333, 'brain_e_tumour_FLAIR': 0.08333333333333333, 'brain_e_tumour_t1gd': 0.08333333333333333, 'brain_e_tumour_T1w': 0.08333333333333333, 'brain_e_tumour_T2w': 0.08333333333333333, 'brain_ne_tumour_FLAIR': 0.08333333333333333, 'brain_ne_tumour_t1gd': 0.08333333333333333, 'brain_ne_tumour_T1w': 0.08333333333333333, 'brain_ne_tumour_T2w': 0.08333333333333333, 'colon': 1, 'heart': 1, 'hippocampus_anterior': 0.03200000000000001, 'hippocampus_posterior': 0.5, 'lung': 1, 'pancreas': 0.5, 'pancreas_cancer': 0.2, 'prostate_peripheral_T2': 0.5, 'prostate_transitional_T2': 0.5, 'spleen': 1, 'vessel': 0.03200000000000001, 'vessel_cancer': 0.5}

@@ -1,0 +1,24 @@
+{'epochs': 1, 'model_name': 'AttUNet2', 'batch_size': 1, 'ft_shots': 15, 'lr': 0.001, 'wd': 3e-05, 'loss_type': 'combined_dice_bce', 'scheduler': None, 'scheduler_params': None, 'norm_type': 'instance', 'volumetric': False, 'max_images': None, 'data_regime': 'all'}
+Starting fine-tuning
+Save path None
+/scratch2/mganesh/MetaMedSeg/AmphibianModels/splits/spleen
+Using combined_dice_bce
+Creating data loaders for fine-tuning
+Training on all train data
+Loaded pre-trained meta-model
+Epoch 0
+Learning rate 0.001000
+/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/nn/functional.py:1967: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Mean train combined_dice_bce loss for epoch 0: 0.9071
+Mean train IoU for epoch 0: 0.1251
+Mean validation combined_dice_bce loss in epoch 0: 0.8895
+Mean validation IoU in epoch 0: 0.0961
+Epoch completed in 0.89 minutes. Remaining time (approx): 0.89 minutes
+Test combined_dice_bce loss: 0.8474193847724024
+Test IoU: 0.13045810163021088
+Fine_tuning completed in 64.59875369770452 seconds.
+                                weights  ...           test_iou_all
+0  experiments/Amphibian_AttUNet-2d.pth  ...  [0.13045810163021088]
+
+[1 rows x 24 columns]

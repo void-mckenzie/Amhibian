@@ -1,0 +1,29 @@
+{'epochs': 20, 'batch_size': 1, 'ft_shots': 15, 'lr': 0.001, 'wd': 3e-05, 'loss_type': 'iou', 'scheduler': None, 'scheduler_params': None, 'norm_type': 'instance', 'volumetric': False, 'max_images': None, 'data_regime': 'all'}
+Starting fine-tuning
+Save path None
+/scratch2/mganesh/MetaMedSeg/MetaMedSeg/splits/spleen
+Using iou
+Creating data loaders for fine-tuning
+Training on all train data
+Loaded pre-trained meta-model
+Epoch 0
+Learning rate 0.001000
+Mean train iou loss for epoch 0: 0.6100
+Mean train IoU for epoch 0: 0.4200
+Mean validation iou loss in epoch 0: 0.4030
+Mean validation IoU in epoch 0: 0.6211
+Epoch completed in 1.03 minutes. Remaining time (approx): 20.52 minutes
+Epoch 1
+Learning rate 0.001000
+Traceback (most recent call last):
+  File "experiment_runner.py", line 241, in <module>
+    num_selections=data.get("num_selections"), save_pth=save_path)
+  File "experiment_runner.py", line 133, in fine_tune
+    data_regime=data_regime, save_pth=save_pth))
+  File "experiment_runner.py", line 101, in fine_tune_one_selection
+    trainer.train_and_evaluate_all()
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/fine_tuning.py", line 247, in train_and_evaluate_all
+    model = self.train(train_loader, val_loader, evaluate_every, name)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/fine_tuning.py", line 164, in train
+    iou += (compute_iou(output, mask, sigmoid_applied=self.sigmoid).item() * image.size(0))
+KeyboardInterrupt

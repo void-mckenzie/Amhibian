@@ -1,0 +1,139 @@
+{'epochs': 20, 'batch_size': 1, 'ft_shots': 15, 'lr': 0.001, 'wd': 3e-05, 'loss_type': 'dice', 'scheduler': None, 'scheduler_params': None, 'norm_type': 'instance', 'volumetric': False, 'max_images': None, 'data_regime': 'all'}
+Starting fine-tuning
+Save path None
+/scratch2/mganesh/MetaMedSeg/MetaMedSeg/splits/spleen
+Using dice
+Creating data loaders for fine-tuning
+Training on all train data
+Loaded pre-trained meta-model
+Epoch 0
+Learning rate 0.001000
+/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/nn/functional.py:1967: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Mean train dice loss for epoch 0: 0.5348
+Mean train IoU for epoch 0: 0.3770
+Mean validation dice loss in epoch 0: 0.2945
+Mean validation IoU in epoch 0: 0.5893
+Epoch completed in 0.71 minutes. Remaining time (approx): 14.15 minutes
+Epoch 1
+Learning rate 0.001000
+Mean train dice loss for epoch 1: 0.2048
+Mean train IoU for epoch 1: 0.6975
+Epoch completed in 0.76 minutes. Remaining time (approx): 14.41 minutes
+Epoch 2
+Learning rate 0.001000
+Mean train dice loss for epoch 2: 0.1476
+Mean train IoU for epoch 2: 0.7725
+Mean validation dice loss in epoch 2: 0.1495
+Mean validation IoU in epoch 2: 0.7692
+Epoch completed in 0.74 minutes. Remaining time (approx): 13.38 minutes
+Epoch 3
+Learning rate 0.001000
+Mean train dice loss for epoch 3: 0.1172
+Mean train IoU for epoch 3: 0.8123
+Epoch completed in 0.73 minutes. Remaining time (approx): 12.46 minutes
+Epoch 4
+Learning rate 0.001000
+Mean train dice loss for epoch 4: 0.0973
+Mean train IoU for epoch 4: 0.8409
+Mean validation dice loss in epoch 4: 0.1228
+Mean validation IoU in epoch 4: 0.8037
+Epoch completed in 0.73 minutes. Remaining time (approx): 11.63 minutes
+Epoch 5
+Learning rate 0.001000
+Mean train dice loss for epoch 5: 0.0857
+Mean train IoU for epoch 5: 0.8576
+Epoch completed in 0.79 minutes. Remaining time (approx): 11.88 minutes
+Epoch 6
+Learning rate 0.001000
+Mean train dice loss for epoch 6: 0.0737
+Mean train IoU for epoch 6: 0.8754
+Mean validation dice loss in epoch 6: 0.0913
+Mean validation IoU in epoch 6: 0.8475
+Epoch completed in 0.84 minutes. Remaining time (approx): 11.77 minutes
+Epoch 7
+Learning rate 0.001000
+Mean train dice loss for epoch 7: 0.0718
+Mean train IoU for epoch 7: 0.8777
+Epoch completed in 0.69 minutes. Remaining time (approx): 8.93 minutes
+Epoch 8
+Learning rate 0.001000
+Mean train dice loss for epoch 8: 0.0698
+Mean train IoU for epoch 8: 0.8814
+Mean validation dice loss in epoch 8: 0.0886
+Mean validation IoU in epoch 8: 0.8550
+Epoch completed in 0.86 minutes. Remaining time (approx): 10.30 minutes
+Epoch 9
+Learning rate 0.001000
+Mean train dice loss for epoch 9: 0.0636
+Mean train IoU for epoch 9: 0.8903
+Epoch completed in 0.75 minutes. Remaining time (approx): 8.25 minutes
+Epoch 10
+Learning rate 0.001000
+Mean train dice loss for epoch 10: 0.0602
+Mean train IoU for epoch 10: 0.8948
+Mean validation dice loss in epoch 10: 0.1082
+Mean validation IoU in epoch 10: 0.8271
+Epoch completed in 0.88 minutes. Remaining time (approx): 8.83 minutes
+Epoch 11
+Learning rate 0.001000
+Mean train dice loss for epoch 11: 0.0604
+Mean train IoU for epoch 11: 0.8953
+Epoch completed in 0.80 minutes. Remaining time (approx): 7.22 minutes
+Epoch 12
+Learning rate 0.001000
+Mean train dice loss for epoch 12: 0.0569
+Mean train IoU for epoch 12: 0.8999
+Mean validation dice loss in epoch 12: 0.0899
+Mean validation IoU in epoch 12: 0.8501
+Epoch completed in 0.78 minutes. Remaining time (approx): 6.28 minutes
+Epoch 13
+Learning rate 0.001000
+Mean train dice loss for epoch 13: 0.0523
+Mean train IoU for epoch 13: 0.9077
+Epoch completed in 0.74 minutes. Remaining time (approx): 5.20 minutes
+Epoch 14
+Learning rate 0.001000
+Mean train dice loss for epoch 14: 0.0577
+Mean train IoU for epoch 14: 0.8988
+Mean validation dice loss in epoch 14: 0.0904
+Mean validation IoU in epoch 14: 0.8520
+Epoch completed in 0.87 minutes. Remaining time (approx): 5.24 minutes
+Epoch 15
+Learning rate 0.001000
+Mean train dice loss for epoch 15: 0.0527
+Mean train IoU for epoch 15: 0.9068
+Epoch completed in 0.76 minutes. Remaining time (approx): 3.81 minutes
+Epoch 16
+Learning rate 0.001000
+Mean train dice loss for epoch 16: 0.0515
+Mean train IoU for epoch 16: 0.9095
+Mean validation dice loss in epoch 16: 0.0751
+Mean validation IoU in epoch 16: 0.8716
+Epoch completed in 0.87 minutes. Remaining time (approx): 3.50 minutes
+Epoch 17
+Learning rate 0.001000
+Mean train dice loss for epoch 17: 0.0482
+Mean train IoU for epoch 17: 0.9139
+Epoch completed in 0.73 minutes. Remaining time (approx): 2.19 minutes
+Epoch 18
+Learning rate 0.001000
+Mean train dice loss for epoch 18: 0.0531
+Mean train IoU for epoch 18: 0.9058
+Mean validation dice loss in epoch 18: 0.0590
+Mean validation IoU in epoch 18: 0.8968
+Epoch completed in 0.79 minutes. Remaining time (approx): 1.59 minutes
+Epoch 19
+Learning rate 0.001000
+Mean train dice loss for epoch 19: 0.0510
+Mean train IoU for epoch 19: 0.9095
+Mean validation dice loss in epoch 19: 0.0908
+Mean validation IoU in epoch 19: 0.8482
+Epoch completed in 0.78 minutes. Remaining time (approx): 0.78 minutes
+Test dice loss: 0.08230700680447109
+Test IoU: 0.8601813316345215
+Fine_tuning completed in 948.8334858631715 seconds.
+                                             weights  ...          test_iou_all
+0  experiments/amphibian_weights_plain_section2_i...  ...  [0.8601813316345215]
+
+[1 rows x 23 columns]

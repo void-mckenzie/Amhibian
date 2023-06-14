@@ -1,0 +1,34 @@
+{'epochs': 20, 'batch_size': 1, 'ft_shots': 15, 'lr': 0.001, 'wd': 3e-05, 'loss_type': 'iou', 'scheduler': None, 'scheduler_params': None, 'norm_type': 'instance', 'volumetric': False, 'max_images': None, 'data_regime': 'all'}
+Starting fine-tuning
+Save path None
+/scratch2/mganesh/MetaMedSeg/MetaMedSeg/splits/spleen
+Using iou
+Creating data loaders for fine-tuning
+Training on all train data
+Loaded pre-trained meta-model
+Epoch 0
+Learning rate 0.001000
+Traceback (most recent call last):
+  File "experiment_runner.py", line 235, in <module>
+    num_selections=data.get("num_selections"), save_pth=save_path)
+  File "experiment_runner.py", line 127, in fine_tune
+    data_regime=data_regime, save_pth=save_pth))
+  File "experiment_runner.py", line 95, in fine_tune_one_selection
+    trainer.train_and_evaluate_all()
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/fine_tuning.py", line 247, in train_and_evaluate_all
+    model = self.train(train_loader, val_loader, evaluate_every, name)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/fine_tuning.py", line 154, in train
+    for image, mask in train_loader:
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/datasets/meta_dataset.py", line 333, in __getitem__
+    image = Image.open(path_to_image).convert("L")
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/PIL/Image.py", line 3245, in open
+    prefix = fp.read(16)
+KeyboardInterrupt

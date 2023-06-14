@@ -1,0 +1,7 @@
+{
+  "tasks": ["Task02_Heart", "Task04_Hippocampus", "Task05_Prostate","Task10_Colon"],
+    "normalize_ct": true,
+    "normalize_volume": true,
+      "output_format": "png",
+        "size": 256
+        }

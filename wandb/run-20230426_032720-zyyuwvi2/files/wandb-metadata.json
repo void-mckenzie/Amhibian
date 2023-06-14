@@ -1,0 +1,206 @@
+{
+    "os": "Linux-3.10.0-1160.71.1.el7.x86_64-x86_64-with-centos-7.7.1908-Core",
+    "python": "3.7.12",
+    "heartbeatAt": "2023-04-26T10:27:24.584817",
+    "startedAt": "2023-04-26T10:27:20.054060",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--exp_type=meta",
+        "--params=model_configs/attunet2_amphibian_meta.json"
+    ],
+    "state": "running",
+    "program": "experiment_runner.py",
+    "codePath": "experiment_runner.py",
+    "host": "a02-20.hpc.usc.edu",
+    "username": "mganesh",
+    "executable": "/home1/mganesh/miniconda3/envs/medseg/bin/python",
+    "cpu_count": 32,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 2794.683999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.684,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 125.69997787475586,
+        "used": 3.0346107482910156
+    },
+    "gpu": "NVIDIA A40",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A40",
+            "memory_total": 48305799168
+        },
+        {
+            "name": "NVIDIA A40",
+            "memory_total": 48305799168
+        }
+    ],
+    "memory": {
+        "total": 251.39995574951172
+    }
+}

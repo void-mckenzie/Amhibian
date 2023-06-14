@@ -1,0 +1,69 @@
+wandb_version: 1
+
+epochs:
+  desc: null
+  value: 20
+batch_size:
+  desc: null
+  value: 1
+ft_shots:
+  desc: null
+  value: 15
+lr:
+  desc: null
+  value: 0.001
+wd:
+  desc: null
+  value: 3.0e-05
+loss_type:
+  desc: null
+  value: dice
+scheduler:
+  desc: null
+  value: null
+scheduler_params:
+  desc: null
+  value: null
+norm_type:
+  desc: null
+  value: instance
+volumetric:
+  desc: null
+  value: false
+max_images:
+  desc: null
+  value: null
+data_regime:
+  desc: null
+  value: all
+_wandb:
+  desc: null
+  value:
+    python_version: 3.7.12
+    cli_version: 0.15.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1682412452.505597
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 51
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 41
+      - 51
+      - 53
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.7.12
+      5: 0.15.0
+      8:
+      - 5

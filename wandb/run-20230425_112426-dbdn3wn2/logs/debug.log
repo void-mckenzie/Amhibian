@@ -1,0 +1,37 @@
+2023-04-25 11:24:26,929 INFO    MainThread:49111 [wandb_setup.py:_flush():76] Configure stats pid to 49111
+2023-04-25 11:24:26,929 INFO    MainThread:49111 [wandb_setup.py:_flush():76] Loading settings from /home1/mganesh/.config/wandb/settings
+2023-04-25 11:24:26,929 INFO    MainThread:49111 [wandb_setup.py:_flush():76] Loading settings from /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/settings
+2023-04-25 11:24:26,929 INFO    MainThread:49111 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-25 11:24:26,929 INFO    MainThread:49111 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-25 11:24:26,929 INFO    MainThread:49111 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'experiment_runner.py', 'program': 'experiment_runner.py'}
+2023-04-25 11:24:26,930 INFO    MainThread:49111 [wandb_init.py:_log_setup():507] Logging user logs to /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112426-dbdn3wn2/logs/debug.log
+2023-04-25 11:24:26,930 INFO    MainThread:49111 [wandb_init.py:_log_setup():508] Logging internal logs to /scratch2/mganesh/MetaMedSeg/MetaMedSeg/wandb/run-20230425_112426-dbdn3wn2/logs/debug-internal.log
+2023-04-25 11:24:26,930 INFO    MainThread:49111 [wandb_init.py:init():547] calling init triggers
+2023-04-25 11:24:26,930 INFO    MainThread:49111 [wandb_init.py:init():555] wandb.init called with sweep_config: {}
+config: {'tasks_per_iteration': 5, 'num_shots': 15, 'outer_epochs': 25, 'inner_epochs': 20, 'inner_lr': 0.01, 'meta_lr': 0.01, 'inner_wd': 0.003, 'meta_wd': 0.001, 'inter_epoch_decay': False, 'meta_decay': False, 'val_shots': 5, 'batch_size': 1, 'loss_type': 'iou', 'scheduler': 'exp', 'val_size': 0.1, 'weighted_update_type': None, 'scheduler_params': {'gamma': 0.8}, 'invert_weights': False, 'alpha': 0.2, 'norm_type': 'instance'}
+2023-04-25 11:24:26,931 INFO    MainThread:49111 [wandb_init.py:init():595] starting backend
+2023-04-25 11:24:26,931 INFO    MainThread:49111 [wandb_init.py:init():599] setting up manager
+2023-04-25 11:24:26,935 INFO    MainThread:49111 [backend.py:_multiprocessing_setup():108] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-04-25 11:24:26,940 INFO    MainThread:49111 [wandb_init.py:init():605] backend started and connected
+2023-04-25 11:24:26,945 INFO    MainThread:49111 [wandb_init.py:init():695] updated telemetry
+2023-04-25 11:24:26,946 INFO    MainThread:49111 [wandb_init.py:init():732] communicating run to backend with 60.0 second timeout
+2023-04-25 11:24:27,225 INFO    MainThread:49111 [wandb_run.py:_on_init():2176] communicating current version
+2023-04-25 11:24:27,268 INFO    MainThread:49111 [wandb_run.py:_on_init():2185] got version response 
+2023-04-25 11:24:27,268 INFO    MainThread:49111 [wandb_init.py:init():782] starting run threads in backend
+2023-04-25 11:24:29,694 WARNING MainThread:49111 [wandb_init.py:init():1167] interrupted
+Traceback (most recent call last):
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 1145, in init
+    run = wi.init()
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 794, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/threading.py", line 300, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

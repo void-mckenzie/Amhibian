@@ -1,0 +1,2070 @@
+['heart']
+It is none
+None
+Starting meta-learning
+Using dice
+OUTER EPOCH 0
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/nn/functional.py:1967: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Mean train dice loss for epoch 0: 0.7690
+Mean train IoU for epoch 0: 0.1390
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.6766
+Mean train IoU for epoch 1: 0.2110
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.6026
+Mean train IoU for epoch 2: 0.2768
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.5558
+Mean train IoU for epoch 3: 0.3153
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.5300
+Mean train IoU for epoch 4: 0.3335
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.4935
+Mean train IoU for epoch 5: 0.3716
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.4742
+Mean train IoU for epoch 6: 0.3886
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.4582
+Mean train IoU for epoch 7: 0.4012
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.4423
+Mean train IoU for epoch 8: 0.4195
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.4395
+Mean train IoU for epoch 9: 0.4223
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.4148
+Mean train IoU for epoch 10: 0.4514
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.4060
+Mean train IoU for epoch 11: 0.4600
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.3890
+Mean train IoU for epoch 12: 0.4797
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.3775
+Mean train IoU for epoch 13: 0.4939
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.3629
+Mean train IoU for epoch 14: 0.5111
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.3608
+Mean train IoU for epoch 15: 0.5124
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.3525
+Mean train IoU for epoch 16: 0.5275
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.3452
+Mean train IoU for epoch 17: 0.5319
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.3474
+Mean train IoU for epoch 18: 0.5325
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.3413
+Mean train IoU for epoch 19: 0.5354
+Validating... on val dataset: 5 shots
+Val loss: 0.5535, val IoU: 0.3108
+Dataset 0, pancreas_cancer
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9677
+Mean train IoU for epoch 0: 0.0184
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9570
+Mean train IoU for epoch 1: 0.0249
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9425
+Mean train IoU for epoch 2: 0.0352
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9281
+Mean train IoU for epoch 3: 0.0469
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.9133
+Mean train IoU for epoch 4: 0.0584
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.8991
+Mean train IoU for epoch 5: 0.0667
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.8909
+Mean train IoU for epoch 6: 0.0805
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.8733
+Mean train IoU for epoch 7: 0.0877
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.8548
+Mean train IoU for epoch 8: 0.1172
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.8346
+Mean train IoU for epoch 9: 0.1372
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.8170
+Mean train IoU for epoch 10: 0.1661
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.8274
+Mean train IoU for epoch 11: 0.1212
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.7776
+Mean train IoU for epoch 12: 0.2254
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.7482
+Mean train IoU for epoch 13: 0.2370
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.7231
+Mean train IoU for epoch 14: 0.2951
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.7205
+Mean train IoU for epoch 15: 0.2716
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.6830
+Mean train IoU for epoch 16: 0.3300
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.6714
+Mean train IoU for epoch 17: 0.3426
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.6425
+Mean train IoU for epoch 18: 0.3824
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.6186
+Mean train IoU for epoch 19: 0.4119
+Validating... on val dataset: 5 shots
+Val loss: 0.7036, val IoU: 0.2765
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.7560
+Mean train IoU for epoch 0: 0.1472
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.6661
+Mean train IoU for epoch 1: 0.2163
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.5922
+Mean train IoU for epoch 2: 0.2808
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.5363
+Mean train IoU for epoch 3: 0.3316
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.5060
+Mean train IoU for epoch 4: 0.3587
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.4760
+Mean train IoU for epoch 5: 0.3870
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.4658
+Mean train IoU for epoch 6: 0.3924
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.4488
+Mean train IoU for epoch 7: 0.4070
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.4303
+Mean train IoU for epoch 8: 0.4303
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.4053
+Mean train IoU for epoch 9: 0.4603
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.3907
+Mean train IoU for epoch 10: 0.4759
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.3779
+Mean train IoU for epoch 11: 0.4909
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.3687
+Mean train IoU for epoch 12: 0.5005
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.3574
+Mean train IoU for epoch 13: 0.5169
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.3516
+Mean train IoU for epoch 14: 0.5222
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.3458
+Mean train IoU for epoch 15: 0.5326
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.3388
+Mean train IoU for epoch 16: 0.5390
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.3330
+Mean train IoU for epoch 17: 0.5461
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.3302
+Mean train IoU for epoch 18: 0.5528
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.3272
+Mean train IoU for epoch 19: 0.5561
+Validating... on val dataset: 5 shots
+Val loss: 0.4770, val IoU: 0.3851
+Dataset 14, vessel
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9841
+Mean train IoU for epoch 0: 0.0090
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9783
+Mean train IoU for epoch 1: 0.0127
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9694
+Mean train IoU for epoch 2: 0.0197
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9558
+Mean train IoU for epoch 3: 0.0305
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.9409
+Mean train IoU for epoch 4: 0.0392
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.9285
+Mean train IoU for epoch 5: 0.0463
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.9126
+Mean train IoU for epoch 6: 0.0705
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.9089
+Mean train IoU for epoch 7: 0.0661
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.8864
+Mean train IoU for epoch 8: 0.0907
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.8675
+Mean train IoU for epoch 9: 0.1267
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.7924
+Mean train IoU for epoch 10: 0.2218
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.7364
+Mean train IoU for epoch 11: 0.2780
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.6772
+Mean train IoU for epoch 12: 0.3179
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.6108
+Mean train IoU for epoch 13: 0.4057
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.5848
+Mean train IoU for epoch 14: 0.3990
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.5333
+Mean train IoU for epoch 15: 0.4439
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.5100
+Mean train IoU for epoch 16: 0.4655
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.4887
+Mean train IoU for epoch 17: 0.4900
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.4779
+Mean train IoU for epoch 18: 0.4996
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.4585
+Mean train IoU for epoch 19: 0.5178
+Validating... on val dataset: 5 shots
+Val loss: 0.6529, val IoU: 0.2906
+Dataset 14, vessel
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9806
+Mean train IoU for epoch 0: 0.0111
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9728
+Mean train IoU for epoch 1: 0.0161
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9618
+Mean train IoU for epoch 2: 0.0245
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9459
+Mean train IoU for epoch 3: 0.0365
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.9295
+Mean train IoU for epoch 4: 0.0478
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.9061
+Mean train IoU for epoch 5: 0.0739
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.8635
+Mean train IoU for epoch 6: 0.1282
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.8672
+Mean train IoU for epoch 7: 0.1142
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.7434
+Mean train IoU for epoch 8: 0.2983
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.6487
+Mean train IoU for epoch 9: 0.3425
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.5893
+Mean train IoU for epoch 10: 0.3810
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.5356
+Mean train IoU for epoch 11: 0.4109
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.4740
+Mean train IoU for epoch 12: 0.4663
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.4322
+Mean train IoU for epoch 13: 0.5125
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.4116
+Mean train IoU for epoch 14: 0.5307
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.4018
+Mean train IoU for epoch 15: 0.5353
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.3836
+Mean train IoU for epoch 16: 0.5525
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.3734
+Mean train IoU for epoch 17: 0.5672
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.3667
+Mean train IoU for epoch 18: 0.5705
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.3623
+Mean train IoU for epoch 19: 0.5760
+Validating... on val dataset: 5 shots
+Val loss: 0.5575, val IoU: 0.3578
+Mean val loss: 0.5889, mean val IoU: 0.3242
+Mean train dice loss in epoch 0: 0.4216
+Mean train IoU in epoch 0: 0.5195
+Validating... on val dataset: 5 shots
+Evaluating hippocampus_anterior:
+dice loss: 0.8802, IoU: 0.0637
+Evaluating pancreas_cancer:
+dice loss: 0.9912, IoU: 0.0039
+Evaluating hippocampus_anterior:
+dice loss: 0.8739, IoU: 0.0659
+Evaluating vessel:
+dice loss: 0.9897, IoU: 0.0055
+Evaluating vessel:
+dice loss: 0.9871, IoU: 0.0068
+Mean meta validation dice loss: 0.5704
+Mean meta validation IoU: 0.0153
+One epoch took 0.6254389823026334 minutes. Remaining time: 125.08779646052668 minutes
+OUTER EPOCH 1
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9850
+Mean train IoU for epoch 0: 0.0078
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9798
+Mean train IoU for epoch 1: 0.0111
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9757
+Mean train IoU for epoch 2: 0.0137
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9703
+Mean train IoU for epoch 3: 0.0174
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.9651
+Mean train IoU for epoch 4: 0.0215
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.9546
+Mean train IoU for epoch 5: 0.0305
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.9421
+Mean train IoU for epoch 6: 0.0424
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.9254
+Mean train IoU for epoch 7: 0.0578
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.8969
+Mean train IoU for epoch 8: 0.0862
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.8603
+Mean train IoU for epoch 9: 0.1314
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.8114
+Mean train IoU for epoch 10: 0.1963
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.7280
+Mean train IoU for epoch 11: 0.3116
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.6521
+Mean train IoU for epoch 12: 0.4077
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.5785
+Mean train IoU for epoch 13: 0.5028
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.5169
+Mean train IoU for epoch 14: 0.5521
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.4696
+Mean train IoU for epoch 15: 0.6054
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.4308
+Mean train IoU for epoch 16: 0.6453
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.4037
+Mean train IoU for epoch 17: 0.6685
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.3839
+Mean train IoU for epoch 18: 0.6863
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.3697
+Mean train IoU for epoch 19: 0.7059
+Validating... on val dataset: 5 shots
+Val loss: 0.7305, val IoU: 0.2030
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.7811
+Mean train IoU for epoch 0: 0.1281
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.7046
+Mean train IoU for epoch 1: 0.1861
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.6402
+Mean train IoU for epoch 2: 0.2403
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.5931
+Mean train IoU for epoch 3: 0.2793
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.5653
+Mean train IoU for epoch 4: 0.3023
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.5486
+Mean train IoU for epoch 5: 0.3152
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.5240
+Mean train IoU for epoch 6: 0.3394
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.5206
+Mean train IoU for epoch 7: 0.3398
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.5077
+Mean train IoU for epoch 8: 0.3501
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.4901
+Mean train IoU for epoch 9: 0.3748
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.4875
+Mean train IoU for epoch 10: 0.3685
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.4619
+Mean train IoU for epoch 11: 0.4029
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.4558
+Mean train IoU for epoch 12: 0.4082
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.4397
+Mean train IoU for epoch 13: 0.4249
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.4415
+Mean train IoU for epoch 14: 0.4264
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.4266
+Mean train IoU for epoch 15: 0.4424
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.4235
+Mean train IoU for epoch 16: 0.4505
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.4184
+Mean train IoU for epoch 17: 0.4485
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.4141
+Mean train IoU for epoch 18: 0.4607
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.4113
+Mean train IoU for epoch 19: 0.4614
+Validating... on val dataset: 5 shots
+Val loss: 0.4768, val IoU: 0.3850
+Dataset 10, pancreas
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9790
+Mean train IoU for epoch 0: 0.0121
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9701
+Mean train IoU for epoch 1: 0.0176
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9612
+Mean train IoU for epoch 2: 0.0236
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9496
+Mean train IoU for epoch 3: 0.0330
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.9367
+Mean train IoU for epoch 4: 0.0422
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.9247
+Mean train IoU for epoch 5: 0.0532
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.8924
+Mean train IoU for epoch 6: 0.0951
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.8686
+Mean train IoU for epoch 7: 0.1034
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.8614
+Mean train IoU for epoch 8: 0.1151
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.8199
+Mean train IoU for epoch 9: 0.1498
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.8149
+Mean train IoU for epoch 10: 0.1441
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.7741
+Mean train IoU for epoch 11: 0.1880
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.7196
+Mean train IoU for epoch 12: 0.2577
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.6869
+Mean train IoU for epoch 13: 0.2966
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.6514
+Mean train IoU for epoch 14: 0.3394
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.6782
+Mean train IoU for epoch 15: 0.2784
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.6436
+Mean train IoU for epoch 16: 0.3443
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.6236
+Mean train IoU for epoch 17: 0.3458
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.5852
+Mean train IoU for epoch 18: 0.4108
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.5664
+Mean train IoU for epoch 19: 0.4224
+Validating... on val dataset: 5 shots
+Val loss: 0.8223, val IoU: 0.1265
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9825
+Mean train IoU for epoch 0: 0.0091
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9753
+Mean train IoU for epoch 1: 0.0136
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9698
+Mean train IoU for epoch 2: 0.0172
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9619
+Mean train IoU for epoch 3: 0.0231
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.9498
+Mean train IoU for epoch 4: 0.0322
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.9314
+Mean train IoU for epoch 5: 0.0483
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.9010
+Mean train IoU for epoch 6: 0.0757
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.8479
+Mean train IoU for epoch 7: 0.1302
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.7590
+Mean train IoU for epoch 8: 0.2275
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.6241
+Mean train IoU for epoch 9: 0.3899
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.5157
+Mean train IoU for epoch 10: 0.4801
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.3983
+Mean train IoU for epoch 11: 0.6090
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.3334
+Mean train IoU for epoch 12: 0.6694
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.2856
+Mean train IoU for epoch 13: 0.7268
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.2541
+Mean train IoU for epoch 14: 0.7537
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.2355
+Mean train IoU for epoch 15: 0.7695
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.2214
+Mean train IoU for epoch 16: 0.7834
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.2131
+Mean train IoU for epoch 17: 0.7945
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.2058
+Mean train IoU for epoch 18: 0.8006
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.2006
+Mean train IoU for epoch 19: 0.8092
+Validating... on val dataset: 5 shots
+Val loss: 0.6590, val IoU: 0.2508
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9800
+Mean train IoU for epoch 0: 0.0106
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9717
+Mean train IoU for epoch 1: 0.0159
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9640
+Mean train IoU for epoch 2: 0.0205
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9555
+Mean train IoU for epoch 3: 0.0272
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.9398
+Mean train IoU for epoch 4: 0.0395
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.9198
+Mean train IoU for epoch 5: 0.0585
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.8888
+Mean train IoU for epoch 6: 0.0818
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.8277
+Mean train IoU for epoch 7: 0.1486
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.7525
+Mean train IoU for epoch 8: 0.2395
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.6487
+Mean train IoU for epoch 9: 0.3590
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.5398
+Mean train IoU for epoch 10: 0.4856
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.4397
+Mean train IoU for epoch 11: 0.5938
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.3674
+Mean train IoU for epoch 12: 0.6588
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.3162
+Mean train IoU for epoch 13: 0.7123
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.2872
+Mean train IoU for epoch 14: 0.7405
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.2688
+Mean train IoU for epoch 15: 0.7606
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.2516
+Mean train IoU for epoch 16: 0.7760
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.2389
+Mean train IoU for epoch 17: 0.7906
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.2304
+Mean train IoU for epoch 18: 0.8021
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.2237
+Mean train IoU for epoch 19: 0.8059
+Validating... on val dataset: 5 shots
+Val loss: 0.5360, val IoU: 0.4272
+Mean val loss: 0.6449, mean val IoU: 0.2785
+Mean train dice loss in epoch 1: 0.3544
+Mean train IoU in epoch 1: 0.6410
+One epoch took 0.8826324343215675 minutes. Remaining time: 175.64385442999193 minutes
+OUTER EPOCH 2
+Dataset 3, brain_edema_t1gd
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.8980
+Mean train IoU for epoch 0: 0.0652
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.8166
+Mean train IoU for epoch 1: 0.1185
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.7711
+Mean train IoU for epoch 2: 0.1522
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.7360
+Mean train IoU for epoch 3: 0.1731
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.7104
+Mean train IoU for epoch 4: 0.1975
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.6657
+Mean train IoU for epoch 5: 0.2394
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.6202
+Mean train IoU for epoch 6: 0.2803
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.5763
+Mean train IoU for epoch 7: 0.3232
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.5047
+Mean train IoU for epoch 8: 0.3882
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.4703
+Mean train IoU for epoch 9: 0.4240
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.4286
+Mean train IoU for epoch 10: 0.4688
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.4229
+Mean train IoU for epoch 11: 0.4744
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.3961
+Mean train IoU for epoch 12: 0.5034
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.3725
+Mean train IoU for epoch 13: 0.5275
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.3462
+Mean train IoU for epoch 14: 0.5555
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.3335
+Mean train IoU for epoch 15: 0.5782
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.3263
+Mean train IoU for epoch 16: 0.5819
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.3151
+Mean train IoU for epoch 17: 0.5949
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.3093
+Mean train IoU for epoch 18: 0.6032
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.3060
+Mean train IoU for epoch 19: 0.6064
+Validating... on val dataset: 5 shots
+Val loss: 0.6568, val IoU: 0.2366
+Dataset 6, vessel_cancer
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9187
+Mean train IoU for epoch 0: 0.0475
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.8721
+Mean train IoU for epoch 1: 0.0845
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.8019
+Mean train IoU for epoch 2: 0.1493
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.7209
+Mean train IoU for epoch 3: 0.2277
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.6802
+Mean train IoU for epoch 4: 0.2556
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.6551
+Mean train IoU for epoch 5: 0.2708
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.6331
+Mean train IoU for epoch 6: 0.2946
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.6399
+Mean train IoU for epoch 7: 0.2770
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.6470
+Mean train IoU for epoch 8: 0.2678
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.6162
+Mean train IoU for epoch 9: 0.3074
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.5953
+Mean train IoU for epoch 10: 0.3222
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.5806
+Mean train IoU for epoch 11: 0.3387
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.5731
+Mean train IoU for epoch 12: 0.3552
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.5596
+Mean train IoU for epoch 13: 0.3650
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.5565
+Mean train IoU for epoch 14: 0.3837
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.5557
+Mean train IoU for epoch 15: 0.3616
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.5335
+Mean train IoU for epoch 16: 0.3986
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.5277
+Mean train IoU for epoch 17: 0.4227
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.5118
+Mean train IoU for epoch 18: 0.4365
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.5076
+Mean train IoU for epoch 19: 0.4420
+Validating... on val dataset: 5 shots
+Val loss: 0.7719, val IoU: 0.1684
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.7598
+Mean train IoU for epoch 0: 0.1457
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.6643
+Mean train IoU for epoch 1: 0.2197
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.5948
+Mean train IoU for epoch 2: 0.2812
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.5439
+Mean train IoU for epoch 3: 0.3232
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.5215
+Mean train IoU for epoch 4: 0.3393
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.4951
+Mean train IoU for epoch 5: 0.3688
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.4741
+Mean train IoU for epoch 6: 0.3865
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.4569
+Mean train IoU for epoch 7: 0.4050
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.4490
+Mean train IoU for epoch 8: 0.4127
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.4352
+Mean train IoU for epoch 9: 0.4258
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.4211
+Mean train IoU for epoch 10: 0.4447
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.4136
+Mean train IoU for epoch 11: 0.4503
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.4026
+Mean train IoU for epoch 12: 0.4648
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.3952
+Mean train IoU for epoch 13: 0.4754
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.3881
+Mean train IoU for epoch 14: 0.4814
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.3828
+Mean train IoU for epoch 15: 0.4883
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.3746
+Mean train IoU for epoch 16: 0.4995
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.3710
+Mean train IoU for epoch 17: 0.5055
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.3670
+Mean train IoU for epoch 18: 0.5076
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.3645
+Mean train IoU for epoch 19: 0.5135
+Validating... on val dataset: 5 shots
+Val loss: 0.4661, val IoU: 0.3897
+Dataset 14, vessel
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9815
+Mean train IoU for epoch 0: 0.0104
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9737
+Mean train IoU for epoch 1: 0.0157
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9616
+Mean train IoU for epoch 2: 0.0246
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9481
+Mean train IoU for epoch 3: 0.0341
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.9315
+Mean train IoU for epoch 4: 0.0449
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.9159
+Mean train IoU for epoch 5: 0.0591
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.8847
+Mean train IoU for epoch 6: 0.1021
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.8610
+Mean train IoU for epoch 7: 0.1347
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.8796
+Mean train IoU for epoch 8: 0.0916
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.7981
+Mean train IoU for epoch 9: 0.1750
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.7742
+Mean train IoU for epoch 10: 0.2086
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.6473
+Mean train IoU for epoch 11: 0.3396
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.5739
+Mean train IoU for epoch 12: 0.4024
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.5244
+Mean train IoU for epoch 13: 0.4464
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.4893
+Mean train IoU for epoch 14: 0.4742
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.4667
+Mean train IoU for epoch 15: 0.5009
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.4442
+Mean train IoU for epoch 16: 0.5231
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.4309
+Mean train IoU for epoch 17: 0.5383
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.4210
+Mean train IoU for epoch 18: 0.5521
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.4137
+Mean train IoU for epoch 19: 0.5616
+Validating... on val dataset: 5 shots
+Val loss: 0.6939, val IoU: 0.2221
+Dataset 6, vessel_cancer
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9483
+Mean train IoU for epoch 0: 0.0314
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9288
+Mean train IoU for epoch 1: 0.0457
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.8999
+Mean train IoU for epoch 2: 0.0705
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.8612
+Mean train IoU for epoch 3: 0.1119
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.8260
+Mean train IoU for epoch 4: 0.1349
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.8014
+Mean train IoU for epoch 5: 0.1549
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.8268
+Mean train IoU for epoch 6: 0.1215
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.7917
+Mean train IoU for epoch 7: 0.1552
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.7718
+Mean train IoU for epoch 8: 0.1726
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.7887
+Mean train IoU for epoch 9: 0.1614
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.7562
+Mean train IoU for epoch 10: 0.1787
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.7387
+Mean train IoU for epoch 11: 0.1989
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.7295
+Mean train IoU for epoch 12: 0.2147
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.7140
+Mean train IoU for epoch 13: 0.2537
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.7056
+Mean train IoU for epoch 14: 0.2491
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.6906
+Mean train IoU for epoch 15: 0.2588
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.6907
+Mean train IoU for epoch 16: 0.2671
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.6617
+Mean train IoU for epoch 17: 0.3307
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.6418
+Mean train IoU for epoch 18: 0.3708
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.6228
+Mean train IoU for epoch 19: 0.3913
+Validating... on val dataset: 5 shots
+Val loss: 0.8550, val IoU: 0.1618
+Mean val loss: 0.6887, mean val IoU: 0.2357
+Mean train dice loss in epoch 2: 0.4429
+Mean train IoU in epoch 2: 0.5030
+One epoch took 0.48482133401557803 minutes. Remaining time: 95.99462413508445 minutes
+OUTER EPOCH 3
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9863
+Mean train IoU for epoch 0: 0.0068
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9804
+Mean train IoU for epoch 1: 0.0104
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9754
+Mean train IoU for epoch 2: 0.0138
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9697
+Mean train IoU for epoch 3: 0.0179
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.9620
+Mean train IoU for epoch 4: 0.0242
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.9496
+Mean train IoU for epoch 5: 0.0348
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.9311
+Mean train IoU for epoch 6: 0.0520
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.9061
+Mean train IoU for epoch 7: 0.0765
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.8632
+Mean train IoU for epoch 8: 0.1241
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.7947
+Mean train IoU for epoch 9: 0.2215
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.6968
+Mean train IoU for epoch 10: 0.3526
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.5908
+Mean train IoU for epoch 11: 0.4981
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.5191
+Mean train IoU for epoch 12: 0.5450
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.4396
+Mean train IoU for epoch 13: 0.6260
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.3804
+Mean train IoU for epoch 14: 0.6864
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.3538
+Mean train IoU for epoch 15: 0.7113
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.3254
+Mean train IoU for epoch 16: 0.7347
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.3075
+Mean train IoU for epoch 17: 0.7467
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.2955
+Mean train IoU for epoch 18: 0.7570
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.2859
+Mean train IoU for epoch 19: 0.7689
+Validating... on val dataset: 5 shots
+Val loss: 0.5469, val IoU: 0.3773
+Dataset 4, brain_edema_FLAIR
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.8699
+Mean train IoU for epoch 0: 0.0889
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.6832
+Mean train IoU for epoch 1: 0.2735
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.5026
+Mean train IoU for epoch 2: 0.4293
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.4296
+Mean train IoU for epoch 3: 0.4654
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.4090
+Mean train IoU for epoch 4: 0.4925
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.3894
+Mean train IoU for epoch 5: 0.4941
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.3657
+Mean train IoU for epoch 6: 0.5251
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.3635
+Mean train IoU for epoch 7: 0.5189
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.3479
+Mean train IoU for epoch 8: 0.5416
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.3341
+Mean train IoU for epoch 9: 0.5614
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.3128
+Mean train IoU for epoch 10: 0.5717
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.2983
+Mean train IoU for epoch 11: 0.6023
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.3132
+Mean train IoU for epoch 12: 0.5733
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.2790
+Mean train IoU for epoch 13: 0.6181
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.2684
+Mean train IoU for epoch 14: 0.6314
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.2653
+Mean train IoU for epoch 15: 0.6335
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.2557
+Mean train IoU for epoch 16: 0.6485
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.2554
+Mean train IoU for epoch 17: 0.6502
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.2513
+Mean train IoU for epoch 18: 0.6543
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.2468
+Mean train IoU for epoch 19: 0.6610
+Validating... on val dataset: 5 shots
+Val loss: 0.2838, val IoU: 0.6007
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9714
+Mean train IoU for epoch 0: 0.0155
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9571
+Mean train IoU for epoch 1: 0.0245
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9438
+Mean train IoU for epoch 2: 0.0331
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9234
+Mean train IoU for epoch 3: 0.0506
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.8838
+Mean train IoU for epoch 4: 0.0871
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.8168
+Mean train IoU for epoch 5: 0.1571
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.7401
+Mean train IoU for epoch 6: 0.2235
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.6864
+Mean train IoU for epoch 7: 0.2930
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.5160
+Mean train IoU for epoch 8: 0.4856
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.4111
+Mean train IoU for epoch 9: 0.5763
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.3363
+Mean train IoU for epoch 10: 0.6553
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.3168
+Mean train IoU for epoch 11: 0.6619
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.2823
+Mean train IoU for epoch 12: 0.6956
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.2345
+Mean train IoU for epoch 13: 0.7736
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.2244
+Mean train IoU for epoch 14: 0.7764
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.2025
+Mean train IoU for epoch 15: 0.7888
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.1838
+Mean train IoU for epoch 16: 0.8272
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.1741
+Mean train IoU for epoch 17: 0.8321
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.1679
+Mean train IoU for epoch 18: 0.8430
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.1643
+Mean train IoU for epoch 19: 0.8495
+Validating... on val dataset: 5 shots
+Val loss: 0.4784, val IoU: 0.4341
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9853
+Mean train IoU for epoch 0: 0.0077
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9779
+Mean train IoU for epoch 1: 0.0124
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9726
+Mean train IoU for epoch 2: 0.0157
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9649
+Mean train IoU for epoch 3: 0.0214
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.9561
+Mean train IoU for epoch 4: 0.0291
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.9400
+Mean train IoU for epoch 5: 0.0427
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.9151
+Mean train IoU for epoch 6: 0.0660
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.8799
+Mean train IoU for epoch 7: 0.1026
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.8177
+Mean train IoU for epoch 8: 0.1776
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.7200
+Mean train IoU for epoch 9: 0.2945
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.6011
+Mean train IoU for epoch 10: 0.4258
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.5086
+Mean train IoU for epoch 11: 0.5099
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.4599
+Mean train IoU for epoch 12: 0.5402
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.4073
+Mean train IoU for epoch 13: 0.6058
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.3534
+Mean train IoU for epoch 14: 0.6587
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.3261
+Mean train IoU for epoch 15: 0.6926
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.3047
+Mean train IoU for epoch 16: 0.7144
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.2884
+Mean train IoU for epoch 17: 0.7337
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.2767
+Mean train IoU for epoch 18: 0.7461
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.2677
+Mean train IoU for epoch 19: 0.7582
+Validating... on val dataset: 5 shots
+Val loss: 0.5433, val IoU: 0.3742
+Dataset 17, lung
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9858
+Mean train IoU for epoch 0: 0.0072
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9784
+Mean train IoU for epoch 1: 0.0120
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9723
+Mean train IoU for epoch 2: 0.0162
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9646
+Mean train IoU for epoch 3: 0.0221
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.9524
+Mean train IoU for epoch 4: 0.0324
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.9357
+Mean train IoU for epoch 5: 0.0465
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.9089
+Mean train IoU for epoch 6: 0.0681
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.8722
+Mean train IoU for epoch 7: 0.1050
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.7990
+Mean train IoU for epoch 8: 0.1969
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.7003
+Mean train IoU for epoch 9: 0.2985
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.6258
+Mean train IoU for epoch 10: 0.3680
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.5296
+Mean train IoU for epoch 11: 0.4724
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.4555
+Mean train IoU for epoch 12: 0.5367
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.3990
+Mean train IoU for epoch 13: 0.6076
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.3592
+Mean train IoU for epoch 14: 0.6469
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.3287
+Mean train IoU for epoch 15: 0.6817
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.3102
+Mean train IoU for epoch 16: 0.7078
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.2934
+Mean train IoU for epoch 17: 0.7206
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.2801
+Mean train IoU for epoch 18: 0.7371
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.2709
+Mean train IoU for epoch 19: 0.7482
+Validating... on val dataset: 5 shots
+Val loss: 0.5849, val IoU: 0.3267
+Mean val loss: 0.4875, mean val IoU: 0.4226
+Mean train dice loss in epoch 3: 0.2471
+Mean train IoU in epoch 3: 0.7571
+One epoch took 0.9549445843634506 minutes. Remaining time: 188.1240831195998 minutes
+OUTER EPOCH 4
+Dataset 16, brain_ne_tumour_FLAIR
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9308
+Mean train IoU for epoch 0: 0.0445
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.8337
+Mean train IoU for epoch 1: 0.1370
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.6756
+Mean train IoU for epoch 2: 0.2656
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.5808
+Mean train IoU for epoch 3: 0.3312
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.5336
+Mean train IoU for epoch 4: 0.3573
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.5251
+Mean train IoU for epoch 5: 0.3577
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.4963
+Mean train IoU for epoch 6: 0.3862
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.4744
+Mean train IoU for epoch 7: 0.4041
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.4459
+Mean train IoU for epoch 8: 0.4301
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.4320
+Mean train IoU for epoch 9: 0.4485
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.4249
+Mean train IoU for epoch 10: 0.4518
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.4029
+Mean train IoU for epoch 11: 0.4757
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.3918
+Mean train IoU for epoch 12: 0.4896
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.3799
+Mean train IoU for epoch 13: 0.5021
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.3800
+Mean train IoU for epoch 14: 0.4960
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.3781
+Mean train IoU for epoch 15: 0.5023
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.3751
+Mean train IoU for epoch 16: 0.5046
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.3549
+Mean train IoU for epoch 17: 0.5327
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.3420
+Mean train IoU for epoch 18: 0.5465
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.3371
+Mean train IoU for epoch 19: 0.5542
+Validating... on val dataset: 5 shots
+Val loss: 0.5715, val IoU: 0.3197
+Dataset 7, brain_edema_T1w
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.8876
+Mean train IoU for epoch 0: 0.0764
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.7993
+Mean train IoU for epoch 1: 0.1382
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.7499
+Mean train IoU for epoch 2: 0.1696
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.7185
+Mean train IoU for epoch 3: 0.1894
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.7054
+Mean train IoU for epoch 4: 0.2026
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.6741
+Mean train IoU for epoch 5: 0.2232
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.6515
+Mean train IoU for epoch 6: 0.2477
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.6147
+Mean train IoU for epoch 7: 0.2789
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.5855
+Mean train IoU for epoch 8: 0.3049
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.5624
+Mean train IoU for epoch 9: 0.3201
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.5434
+Mean train IoU for epoch 10: 0.3495
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.5332
+Mean train IoU for epoch 11: 0.3490
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.5136
+Mean train IoU for epoch 12: 0.3756
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.4952
+Mean train IoU for epoch 13: 0.3918
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.4830
+Mean train IoU for epoch 14: 0.4111
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.4733
+Mean train IoU for epoch 15: 0.4127
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.4616
+Mean train IoU for epoch 16: 0.4302
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.4519
+Mean train IoU for epoch 17: 0.4406
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.4435
+Mean train IoU for epoch 18: 0.4523
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.4377
+Mean train IoU for epoch 19: 0.4595
+Validating... on val dataset: 5 shots
+Val loss: 0.7464, val IoU: 0.1586
+Dataset 14, vessel
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9840
+Mean train IoU for epoch 0: 0.0093
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9779
+Mean train IoU for epoch 1: 0.0133
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.9685
+Mean train IoU for epoch 2: 0.0206
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.9539
+Mean train IoU for epoch 3: 0.0323
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.9381
+Mean train IoU for epoch 4: 0.0431
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.9182
+Mean train IoU for epoch 5: 0.0633
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.8802
+Mean train IoU for epoch 6: 0.1324
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.8099
+Mean train IoU for epoch 7: 0.2330
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.9011
+Mean train IoU for epoch 8: 0.0646
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.7912
+Mean train IoU for epoch 9: 0.2135
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.7304
+Mean train IoU for epoch 10: 0.2631
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.6578
+Mean train IoU for epoch 11: 0.3295
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.5344
+Mean train IoU for epoch 12: 0.4505
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.5572
+Mean train IoU for epoch 13: 0.4159
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.5017
+Mean train IoU for epoch 14: 0.4542
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.4695
+Mean train IoU for epoch 15: 0.4798
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.4226
+Mean train IoU for epoch 16: 0.5405
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.4234
+Mean train IoU for epoch 17: 0.5372
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.3940
+Mean train IoU for epoch 18: 0.5750
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.3842
+Mean train IoU for epoch 19: 0.5891
+Validating... on val dataset: 5 shots
+Val loss: 0.5619, val IoU: 0.3846
+Dataset 6, vessel_cancer
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.9378
+Mean train IoU for epoch 0: 0.0376
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.9020
+Mean train IoU for epoch 1: 0.0627
+Inner Epoch 2
+Learning rate 0.006400
+Mean train dice loss for epoch 2: 0.8502
+Mean train IoU for epoch 2: 0.1158
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.7897
+Mean train IoU for epoch 3: 0.1673
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.8170
+Mean train IoU for epoch 4: 0.1233
+Inner Epoch 5
+Learning rate 0.003277
+Mean train dice loss for epoch 5: 0.7541
+Mean train IoU for epoch 5: 0.1971
+Inner Epoch 6
+Learning rate 0.002621
+Mean train dice loss for epoch 6: 0.7329
+Mean train IoU for epoch 6: 0.1964
+Inner Epoch 7
+Learning rate 0.002097
+Mean train dice loss for epoch 7: 0.7785
+Mean train IoU for epoch 7: 0.1589
+Inner Epoch 8
+Learning rate 0.001678
+Mean train dice loss for epoch 8: 0.7131
+Mean train IoU for epoch 8: 0.2324
+Inner Epoch 9
+Learning rate 0.001342
+Mean train dice loss for epoch 9: 0.7002
+Mean train IoU for epoch 9: 0.2219
+Inner Epoch 10
+Learning rate 0.001074
+Mean train dice loss for epoch 10: 0.6927
+Mean train IoU for epoch 10: 0.2415
+Inner Epoch 11
+Learning rate 0.000859
+Mean train dice loss for epoch 11: 0.6873
+Mean train IoU for epoch 11: 0.2554
+Inner Epoch 12
+Learning rate 0.000687
+Mean train dice loss for epoch 12: 0.6771
+Mean train IoU for epoch 12: 0.2402
+Inner Epoch 13
+Learning rate 0.000550
+Mean train dice loss for epoch 13: 0.6383
+Mean train IoU for epoch 13: 0.3184
+Inner Epoch 14
+Learning rate 0.000440
+Mean train dice loss for epoch 14: 0.5922
+Mean train IoU for epoch 14: 0.3556
+Inner Epoch 15
+Learning rate 0.000352
+Mean train dice loss for epoch 15: 0.5754
+Mean train IoU for epoch 15: 0.4029
+Inner Epoch 16
+Learning rate 0.000281
+Mean train dice loss for epoch 16: 0.5511
+Mean train IoU for epoch 16: 0.4340
+Inner Epoch 17
+Learning rate 0.000225
+Mean train dice loss for epoch 17: 0.5366
+Mean train IoU for epoch 17: 0.4470
+Inner Epoch 18
+Learning rate 0.000180
+Mean train dice loss for epoch 18: 0.5202
+Mean train IoU for epoch 18: 0.4819
+Inner Epoch 19
+Learning rate 0.000144
+Mean train dice loss for epoch 19: 0.5116
+Mean train IoU for epoch 19: 0.4789
+Validating... on val dataset: 5 shots
+Val loss: 0.7078, val IoU: 0.2743
+Dataset 11, hippocampus_anterior
+Inner Epoch 0
+Learning rate 0.010000
+Mean train dice loss for epoch 0: 0.7781
+Mean train IoU for epoch 0: 0.1343
+Inner Epoch 1
+Learning rate 0.008000
+Mean train dice loss for epoch 1: 0.6960
+Mean train IoU for epoch 1: 0.1964
+Inner Epoch 2
+Learning rate 0.006400
+Traceback (most recent call last):
+  File "experiment_runner.py", line 239, in <module>
+    target_name=data.get("weights_name"))
+  File "experiment_runner.py", line 51, in meta_train
+    reptile.outer_loop(evaluate_every=4, path_to_save=save_path)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/reptile.py", line 286, in outer_loop
+    task_weights, loss_history, iou_history, task_val_loss, task_val_iou = self.inner_loop(dataset_id)
+  File "/scratch2/mganesh/MetaMedSeg/MetaMedSeg/meta_learning/reptile.py", line 434, in inner_loop
+    current_loss.backward()
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/_tensor.py", line 489, in backward
+    self, gradient, retain_graph, create_graph, inputs=inputs
+  File "/home1/mganesh/miniconda3/envs/medseg/lib/python3.7/site-packages/torch/autograd/__init__.py", line 199, in backward
+    allow_unreachable=True, accumulate_grad=True)  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Mean train dice loss for epoch 2: 0.6242
+Mean train IoU for epoch 2: 0.2584
+Inner Epoch 3
+Learning rate 0.005120
+Mean train dice loss for epoch 3: 0.5750
+Mean train IoU for epoch 3: 0.2985
+Inner Epoch 4
+Learning rate 0.004096
+Mean train dice loss for epoch 4: 0.5371
+Mean train IoU for epoch 4: 0.3328
+Inner Epoch 5
+Learning rate 0.003277

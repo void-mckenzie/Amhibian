@@ -1,0 +1,2 @@
+weights,target,exp_type,epochs,batch_size,ft_shots,lr,wd,loss_type,scheduler,scheduler_params,norm_type,volumetric,max_images,data_regime,train_loss,train_iou,val_loss,val_iou,test_loss,test_iou,elapsed,test_iou_all
+experiments/amphibian_weights_plain_section2_iw_mean_combined_dice_bce.pth,['spleen'],ft,20,1,15,0.001,3e-05,combined_dice_bce,,,instance,False,,all,0.07071028765628679,0.895777495994784,0.06004867084984538,0.9066959619522095,0.06108254166367241,0.905254065990448,970.3991508316249,[0.905254065990448]
